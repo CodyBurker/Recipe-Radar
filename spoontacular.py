@@ -2,9 +2,9 @@ import requests
 import pandas as pd
 
 # Given a query, get recipes
-def get_recipe(query, api_key:str) -> pd.DataFrame:
+def get_recipe(query, api_key:str, number:int=10) -> pd.DataFrame:
     url =  "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch"
-    querystring = {"query":query}
+    querystring = {"query":query, "number":number}
     headers = {
         "X-RapidAPI-Key": api_key,
         "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
