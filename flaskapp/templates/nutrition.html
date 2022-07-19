@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flaskapp site for w209dv22sec6g1</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+        <script src="https://vega.github.io/datalib/datalib.min.js"></script>
+        <script src="https://vega.github.io/vega-tooltip/vega-tooltip.min.js"></script>
+        <style>
+        div.bar2 {
+            width: 800px;
+            height: 400px;
+            overflow-x: auto;
+            overflow-y: auto;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Nutrition</h1>
+        </br>
+        <a href="/">home</a>
+        </br>
+        <a href="/flavorprofiles">flavor profiles</a>
+        </br>
+        <a href="/ingredients">ingredients</a>
+        </br>
+        <div class="container">
+          <div class="charts text-center">
+            <h1>Rishika Bar Graph</h1>
+            <div id="RPChart"></div>            
+            <!-- Placeholder for the tooltip -->
+            <div id="vis-tooltip" class="vg-tooltip"></div>
+          </div>
+        </div>
+    
+        
+    <!-- Render Charts -->
+    <script type="text/javascript">
+      function parse(url, div) {
+        var opt = {
+          mode: "vega-lite",
+          renderer: "svg",
+          actions: {export: true, source: false, editor: false}
+        };
+        
+        vegaEmbed("#"+div, url, opt, function(error, result) {
+              // result.view is the Vega View, url is the original Vega-Lite specification
+              vegaTooltip.vegaLite(result.view, url);
+            });
+          }        
+    
+        parse("/data/nutrition/RPChart","RPChart");
+    </script>        
+    </body>
+</html>
