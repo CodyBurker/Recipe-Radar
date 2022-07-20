@@ -2,7 +2,6 @@ from flask import Blueprint
 import altair as alt
 import pandas as pd
 import numpy as np
-import pandasql
 
 John_Mah = Blueprint('John_Mah', __name__)
 
@@ -11,7 +10,7 @@ John_Mah = Blueprint('John_Mah', __name__)
 ###########################
 def nutrition_data():
     
-    path = '/data/flavorprofiles.csv'
+    path = '/w209dv22sec6g1/data/flavorprofiles.csv'
     df = pd.read_csv(path)
     return df
 
