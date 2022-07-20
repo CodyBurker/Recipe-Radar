@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 # Import everyones work!
-from blueprints.Margo_Suryanaga import Margo_Suryanaga 
+from blueprints.Margo_Suryanaga import Margo_Suryanaga
 from blueprints.Rishika_Pulvender import Rishika_Pulvender
 from blueprints.Cody_Burker import Cody_Burker
 from blueprints.John_Mah import John_Mah
@@ -18,6 +18,26 @@ app.register_blueprint(John_Mah)
 ##########################
 # render index.html home page
 @app.route("/")
+def view_about():
+    return render_template("index.html", title="About")
+
+@app.route("/flavorprofiles")
+def view_flavor_profiles_page():
+    return render_template("index.html", title="Flavor Profiles")
+
+@app.route("/nutrition")
+def view_nutrition_page():
+    return render_template("index.html", title="Nutrition")
+
+@app.route("/ingredients")
+def view_ingredients_page():
+    return render_template("index.html", title="Ingredients")
+
+@app.route("/team")
+def view_team_page():
+    return render_template("team.html", title="Meet the Team")
+
+
 def index():
     file="about9.jpg"
     return render_template('index.html', file=file)

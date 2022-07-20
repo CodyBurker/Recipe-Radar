@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>flaskapp site for w209dv22sec6g1</title>
     </head>
     <body>
-        <h1>Spoonacular App</h1>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Recipe Radar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{ url_for('view_about') }}">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('view_flavor_profiles_page') }}">Flavor Profiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('view_nutrition_page') }}">Nutrition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('view_ingredients_page') }}">Ingredients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('view_team_page') }}">Meet the Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="jumbotron">
+              <h1 class="display-4">
+            		{% if title %}
+            		  {{ title }}
+            		{% else %}
+            		  Default title
+            		{% endif %}
+  	           </h1>
+           </div>
+        </div>
+
+
+
+
+
+        <h1>Spoonacular App!</h1>
         <img src="{{url_for('static',filename=file)}}"/>
         </br>
-        <a href="/w209dv22sec6g1/flavorprofiles">flavor profiles</a>
+        <a href="/flavorprofiles">flavor profiles</a>
         </br>
-        <a href="/w209dv22sec6g1/nutrition">nutrition</a>
+        <a href="/nutrition">nutrition</a>
         </br>
-        <a href="/w209dv22sec6g1/ingredients">ingredients</a>
+        <a href="/ingredients">ingredients</a>
         </br>
   </body>
 </html>
