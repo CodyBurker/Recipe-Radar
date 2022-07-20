@@ -2,18 +2,17 @@ from flask import Blueprint
 import altair as alt
 import pandas as pd
 import numpy as np
-from vega_datasets import data
+#from vega_datasets import data # TODO:// 500 Error lib not installing
 
 Cody_Burker = Blueprint('Cody_Burker', __name__)
 
 ###########################
 ###### Data Sources #######
 ###########################
-def nutrition_data():
+path = '/w209dv22sec6g1/data/flavorprofiles.csv'
 
-    path = '/w209dv22sec6g1/data/flavorprofiles.csv'
-    df = pd.read_csv(path)
-    return df
+# cuisine_mapping = pd.read_csv('./CuisinneMapping.csv')
+# taste = pd.read_csv('./taste.csv')
 
 ###########################
 ##### flavorprofiles ######
@@ -21,9 +20,6 @@ def nutrition_data():
 
 @Cody_Burker.route("/flavorprofiles/CBChart")
 def chart():
-    print('enter getJSONReuslt', flush=True)
-    cuisine_mapping = pd.read_csv('./CuisinneMapping.csv')
-    taste = pd.read_csv('./taste.csv')
 
     # Merge with cuisine mapping
     mapping = taste.merge(cuisine_mapping, on='cuisine')
