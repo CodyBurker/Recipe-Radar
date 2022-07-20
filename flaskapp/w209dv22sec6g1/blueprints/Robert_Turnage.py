@@ -1,7 +1,6 @@
 from flask import  Blueprint
 import altair as alt
 import pandas as pd
-import pandasql
 
 Robert_Turnage = Blueprint('Robert_Turnage', __name__)
     
@@ -13,38 +12,20 @@ def bar_data():
     ingredients = pd.read_csv('ingredients.csv')
     
     # From here we can shape the flattened data to flow directly into data visuals
-    df = pandasql.sqldf("""
-      WITH Clean AS (--TODO:\\ Take to pre-flatten step to remove from BI
-        SELECT CASE WHEN name LIKE '%garlic%' 
-                    THEN 'garlic' 
-                    WHEN name LIKE '%salt%' 
-                    THEN 'salt' 
-                    WHEN name LIKE '%ginger%' 
-                    THEN 'ginger' 
-                    WHEN name LIKE '%cumin%' 
-                    THEN 'cumin' 
-                    ELSE name
-                END                             AS `Name`
-                , cuisine                       AS `Cuisine`
-          FROM ingredients
-          WHERE Name <> 'salt and pepper'
-      )  
-      SELECT Name
-            , Cuisine
-            , COUNT(Name) AS `Count`
-      FROM Clean
-      GROUP BY Name, Cuisine
-      ORDER BY Count DESC
-      LIMIT 50          
-    """)   
+    df = ingredients[['name', 'cuisine']]
+    df.rename(columns = {'name': 'Name', 'cuisine': 'Cuisine'}, inplace=True)
+    df['Count'] = df.groupby(['Name', 'Cuisine'])['Name'].transform('count')
+    df.sort_values(by=['Count'], inplace=True, ascending=False, ignore_index=True)
+    df.drop_duplicates(subset=None, keep='first', inplace=True, ignore_index=True)
+    df = df[df['Name'].isin(df['Name'].unique()[0:10])]
     
     return df
 
 ###########################
 ####### Ingredients #######
 ###########################
-@Robert_Turnage.route("/data/ingredients/bar")
-def bar():
+@Robert_Turnage.route("/data/ingredients/RTChart")
+def chart():
     chart = alt.Chart(bar_data()).mark_bar().encode(    
                 x='sum(Count):Q',
                 y=alt.Y('Name:N', sort='-x'), 
