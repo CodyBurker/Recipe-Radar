@@ -8,9 +8,9 @@ Rishika_Pulvender = Blueprint('Rishika_Pulvender', __name__)
 ###########################
 ###### Data Sources #######
 ###########################
-path = 'nutrition.csv'
+path = './data/nutrition.csv'
 
-# data = pd.read_csv(path) #TODO:// Error 500 issues 
+#data = pd.read_csv(path) #TODO:// Error 500 issues 
 
 # df = data.filter(['id', 'cuisine', 'name', 'title', 'percentOfDailyNeeds'])
 # out = df.pivot_table(index='id', columns='title', values=['percentOfDailyNeeds'])
@@ -58,7 +58,7 @@ def chart():
     
     return chart.to_json()
 
-@Rishika_Pulvender.route("/data/nutrition/RPChart")
+@Rishika_Pulvender.route("/data/nutrition/pie1")
 def pie1():
     
     color = alt.condition(selection, alt.Color('cuisine:N', legend=None), alt.value('lightgray'))
@@ -78,7 +78,7 @@ def pie1():
     return pie1.to_json()
 
 
-@Rishika_Pulvender.route("/data/nutrition/RPChart")
+@Rishika_Pulvender.route("/data/nutrition/pie2")
 def pie2():
     #pie_legend = alt.Chart(df).mark_rect().encode(y='title', color='title')
 

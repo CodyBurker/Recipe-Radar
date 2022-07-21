@@ -2,7 +2,7 @@ from flask import Blueprint
 import altair as alt
 import pandas as pd
 import numpy as np
-#from vega_datasets import data # TODO:// 500 Error lib not installing
+from vega_datasets import data 
 
 Cody_Burker = Blueprint('Cody_Burker', __name__)
 

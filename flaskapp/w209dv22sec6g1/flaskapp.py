@@ -14,7 +14,6 @@ app.register_blueprint(Rishika_Pulvender)
 app.register_blueprint(Cody_Burker) 
 app.register_blueprint(John_Mah)
 
-
 ##########################
 # Flask routes
 ##########################
