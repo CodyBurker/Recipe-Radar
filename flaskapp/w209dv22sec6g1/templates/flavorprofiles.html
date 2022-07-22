@@ -65,32 +65,23 @@
            <div class="charts text-center">
              <h1>Margo Chart</h1>
              <div id="MSSweet"></div>
+             </br>
+             <div id="MSSour"></div>
+             </br>
+             <div id="MSSpicy"></div>
+             </br>
+             <div id="MSSalty"></div>
+             </br>
+             <div id="MSBitter"></div>
+             </br>
+             <div id="MSSavory"></div>
+             </br>
+             <div id="MSFatty"></div>
+             </br>
              <h1>John Chart</h1>
              <div id="JMChart"></div>
              <h1>Cody Chart</h1>
              <div id="CBChart"></div>
-
-             <div class='tableauPlaceholder' id='viz1658469479943' style='position: relative'>
-    <noscript><a href='#'><img alt='Week 2 - Assignment - John Mah ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;Week2_John_Mah&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript>
-    <object class='tableauViz'  style='display:none;'>
-       <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-       <param name='embed_code_version' value='3' />
-       <param name='site_root' value='' />
-       <param name='name' value='Week2_John_Mah&#47;Sheet1' />
-       <param name='tabs' value='no' />
-       <param name='toolbar' value='yes' />
-       <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;Week2_John_Mah&#47;Sheet1&#47;1.png' />
-       <param name='animate_transition' value='yes' />
-       <param name='display_static_image' value='yes' />
-       <param name='display_spinner' value='yes' />
-       <param name='display_overlay' value='yes' />
-       <param name='display_count' value='yes' />
-       <param name='language' value='en-US' />
-    </object>
- </div>
- <script type='text/javascript'>                    var divElement = document.getElementById('viz1658469479943');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-
              <!-- Placeholder for the tooltip -->
              <div id="vis-tooltip" class="vg-tooltip"></div>
            </div>
@@ -111,9 +102,17 @@
                vegaTooltip.vegaLite(result.view, url);
              });
            }
-         parse("/w209dv22sec6g1/data/flavorprofiles/MSSweet","MSSweet");
-         parse("/w209dv22sec6g1/flavorprofiles/JMChart","JMChart");
-         parse("/w209dv22sec6g1/flavorprofiles/CBChart","CBChart");
+
+        
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSSweet","MSSweet");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSSour","MSSour");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSSpicy","MSSpicy");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSSalty","MSSalty");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSBitter","MSBitter");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSSavory","MSSavory");
+        parse("/w209dv22sec6g1/data/flavorprofiles/MSFatty","MSFatty");
+        parse("/w209dv22sec6g1/flavorprofiles/JMChart","JMChart");
+        parse("/w209dv22sec6g1/flavorprofiles/CBChart","CBChart");
      </script>
 
     </body>
