@@ -1,0 +1,733 @@
+,Name,Type,Cuisine,PODN
+0,Vitamin K,good,Southern,209.7956926406926
+1,Vitamin K,good,European,172.33086868686888
+2,Vitamin K,good,Italian,165.79554435483863
+3,Vitamin K,good,Mediterranean,154.19244444444428
+4,Vitamin A,good,American,140.06924024640648
+5,Vitamin K,good,Latin American,139.66847695390786
+6,Vitamin A,good,Thai,132.33325910931174
+7,Vitamin A,good,Italian,130.12144016227182
+8,Vitamin K,good,Middle Eastern,129.98515212981746
+9,Vitamin A,good,European,128.94102040816324
+10,Vitamin A,good,Mediterranean,122.65442622950819
+11,Vitamin A,good,African,116.84890243902447
+12,Vitamin A,good,Indian,111.97670061099804
+13,Vitamin A,good,Irish,111.53674134419566
+14,Sodium,bad,Korean,109.73789999999994
+15,Vitamin A,good,Southern,102.31611940298521
+16,Vitamin C,good,Indian,97.55271255060738
+17,Vitamin C,good,European,95.6560931174088
+18,Vitamin C,good,Mediterranean,92.85689655172422
+19,Vitamin C,good,Chinese,92.5706097560976
+20,Vitamin K,good,Indian,91.19883064516132
+21,Vitamin K,good,Chinese,91.02006072874494
+22,Vitamin C,good,French,90.86450413223147
+23,Vitamin A,good,Vietnamese,89.37940451745382
+24,Vitamin A,good,Chinese,87.1837601626017
+25,Vitamin A,good,Korean,85.97854077253228
+26,Vitamin A,good,French,85.57757894736852
+27,Vitamin C,good,Irish,85.06430084745759
+28,Vitamin C,good,Italian,83.78050607287454
+29,Vitamin C,good,Thai,83.09739919354837
+30,Vitamin K,good,Thai,82.1713645621181
+31,Vitamin C,good,American,81.98010162601626
+32,Vitamin K,good,Korean,80.84586065573774
+33,Vitamin K,good,French,80.37726166328595
+34,Manganese,good,Indian,80.28058000000009
+35,Vitamin K,good,Spanish,80.05722891566273
+36,Vitamin C,good,Spanish,78.74374749498995
+37,Vitamin A,good,Middle Eastern,77.72715498938422
+38,Vitamin A,good,Jewish,77.67660087719297
+39,Protein,good,Jewish,77.37888000000001
+40,Vitamin B3,good,Indian,74.24532000000008
+41,Vitamin B12,good,Jewish,73.85084967320265
+42,Vitamin K,good,American,73.64594320486813
+43,Manganese,good,Italian,69.82660000000001
+44,Manganese,good,European,68.70851999999998
+45,Manganese,good,Mediterranean,68.61457999999993
+46,Vitamin C,good,Cajun,66.23437371663243
+47,Selenium,good,Eastern European,65.43616935483861
+48,Manganese,good,Middle Eastern,64.08631999999999
+49,Vitamin A,good,Spanish,63.63710261569418
+50,Vitamin K,good,Irish,62.61581780538289
+51,Saturated Fat,bad,British,62.588739999999945
+52,Manganese,good,Spanish,62.43063999999998
+53,Folate,good,Indian,61.621875
+54,Manganese,good,Thai,60.827899999999985
+55,Vitamin C,good,Southern,60.58736383442264
+56,Saturated Fat,bad,Irish,60.51399999999999
+57,Protein,good,Eastern European,60.19403999999998
+58,Protein,good,Cajun,60.193460000000016
+59,Manganese,good,Southern,60.15262000000009
+60,Manganese,good,American,58.06248000000004
+61,Sodium,bad,Vietnamese,57.795439999999985
+62,Vitamin C,good,Latin American,57.02552000000001
+63,Protein,good,American,56.84658000000001
+64,Vitamin C,good,Middle Eastern,56.650362173038204
+65,Protein,good,Irish,56.606199999999994
+66,Manganese,good,Chinese,56.57282000000004
+67,Vitamin A,good,Cajun,56.54865853658535
+68,Selenium,good,Latin American,56.53707865168534
+69,Protein,good,Latin American,55.899999999999984
+70,Saturated Fat,bad,Eastern European,55.55636000000001
+71,Vitamin K,good,Cajun,54.008024439918536
+72,Protein,good,Thai,53.54141999999997
+73,Saturated Fat,bad,German,53.396600000000014
+74,Protein,good,Korean,52.94188000000003
+75,Protein,good,Chinese,52.67584000000004
+76,Protein,good,Spanish,52.43668000000002
+77,Protein,good,French,51.67898000000001
+78,Vitamin B12,good,French,51.521477272727275
+79,Saturated Fat,bad,Nordic,51.514666666666734
+80,Protein,good,Southern,51.444739999999975
+81,Sodium,bad,Irish,51.34162000000004
+82,Selenium,good,Jewish,51.15463709677425
+83,Vitamin B6,good,Irish,51.06128
+84,Vitamin C,good,African,50.93052287581699
+85,Vitamin C,good,Vietnamese,50.41370221327965
+86,Sodium,bad,Spanish,50.40747999999994
+87,Vitamin B6,good,Jewish,50.05564
+88,Selenium,good,French,50.05251020408158
+89,Vitamin B6,good,American,49.66847999999995
+90,Zinc,good,Jewish,49.65630522088358
+91,Selenium,good,Italian,49.462459677419375
+92,Protein,good,Italian,49.39529999999997
+93,Vitamin A,good,Latin American,49.385492957746486
+94,Vitamin B6,good,European,48.780820000000034
+95,Sodium,bad,Nordic,48.61639999999996
+96,Vitamin C,good,Korean,48.49416149068324
+97,Saturated Fat,bad,Indian,48.486740000000005
+98,Manganese,good,African,48.299705882352946
+99,Vitamin C,good,Caribbean,48.15553658536585
+100,Vitamin K,good,Vietnamese,48.048655804480674
+101,Selenium,good,Cajun,48.029572301425645
+102,Sodium,bad,German,47.956920000000025
+103,Manganese,good,French,47.883919999999996
+104,Protein,good,Vietnamese,47.74277999999997
+105,Manganese,good,Cajun,47.73294589178356
+106,Protein,good,Mediterranean,47.312799999999996
+107,Fiber,good,American,47.02024193548389
+108,Selenium,good,Chinese,46.97705645161289
+109,Protein,good,European,46.94694000000002
+110,Vitamin C,good,Eastern European,46.83451219512201
+111,Selenium,good,Mediterranean,46.48544534412958
+112,Vitamin A,good,Eastern European,46.443874239350926
+113,Selenium,good,Korean,46.05088888888892
+114,Vitamin B3,good,Thai,45.99076000000001
+115,Vitamin B12,good,Spanish,45.62125748502992
+116,Saturated Fat,bad,Thai,45.28241999999998
+117,Phosphorus,good,Jewish,44.79456000000001
+118,Saturated Fat,bad,French,44.72902000000002
+119,Protein,good,Indian,44.62438000000006
+120,Selenium,good,Thai,44.35959349593498
+121,Selenium,good,European,44.13586206896551
+122,Vitamin B3,good,Eastern European,43.990859999999984
+123,Vitamin B6,good,Chinese,43.98493999999999
+124,Vitamin B3,good,Irish,43.937360000000005
+125,Vitamin A,good,Caribbean,43.87481308411211
+126,Selenium,good,Spanish,43.70799591002045
+127,Vitamin B3,good,Chinese,43.57531999999999
+128,Sodium,bad,Thai,43.52134
+129,Vitamin B6,good,Mediterranean,43.443500000000014
+130,Sodium,bad,Jewish,43.43087999999997
+131,Vitamin B6,good,Spanish,43.41607999999998
+132,Protein,good,Caribbean,43.35451999999998
+133,Manganese,good,British,43.33729458917838
+134,Vitamin B6,good,Eastern European,43.25379999999997
+135,Cholesterol,bad,Jewish,43.24328000000004
+136,Sodium,bad,Eastern European,43.12019999999995
+137,Vitamin B6,good,Thai,42.726860000000016
+138,Sodium,bad,Cajun,42.724979999999995
+139,Vitamin B6,good,Indian,42.63434000000001
+140,Vitamin K,good,German,42.58420479302833
+141,Vitamin B6,good,Korean,42.55617999999998
+142,Folate,good,American,42.462900000000005
+143,Saturated Fat,bad,Southern,42.16726000000001
+144,Phosphorus,good,American,42.100620000000006
+145,Vitamin B3,good,Cajun,41.96524096385547
+146,Vitamin B6,good,French,41.883887775551095
+147,Protein,good,African,41.85323529411767
+148,Selenium,good,American,41.84561368209257
+149,Fiber,good,Indian,41.74839357429719
+150,Selenium,good,Irish,41.6574348697395
+151,Vitamin B3,good,Jewish,41.607799999999955
+152,Vitamin B12,good,Latin American,41.50136363636369
+153,Vitamin K,good,African,41.41888888888888
+154,Selenium,good,Vietnamese,41.37298174442189
+155,Manganese,good,Korean,41.13029999999995
+156,Vitamin B6,good,Cajun,41.072919999999975
+157,Vitamin B6,good,Italian,40.86871999999997
+158,Folate,good,European,40.762039999999985
+159,Selenium,good,Southern,40.465835010060395
+160,Folate,good,Middle Eastern,40.34091999999999
+161,Selenium,good,German,40.27928571428573
+162,Protein,good,German,40.122719999999994
+163,Sodium,bad,Chinese,39.96396000000003
+164,Vitamin B12,good,Irish,39.89058441558444
+165,Folate,good,Mediterranean,39.67264000000001
+166,Vitamin B3,good,Korean,39.510020080321276
+167,Vitamin B3,good,American,39.48858000000001
+168,Vitamin B6,good,Latin American,39.480981963927846
+169,Saturated Fat,bad,Jewish,39.45182
+170,Selenium,good,Caribbean,39.36881974248929
+171,Vitamin B3,good,Latin American,39.356816326530584
+172,Phosphorus,good,Italian,39.28861999999999
+173,Vitamin B3,good,Caribbean,39.16915948275862
+174,Fat,bad,Latin American,39.11781999999997
+175,Sodium,bad,Italian,39.05803999999998
+176,Folate,good,Italian,39.04284000000001
+177,Phosphorus,good,Irish,38.94341999999997
+178,Folate,good,Southern,38.8363453815261
+179,Selenium,good,British,38.82157258064515
+180,Fiber,good,Middle Eastern,38.8083
+181,Cholesterol,bad,Cajun,38.41939999999998
+182,Phosphorus,good,Eastern European,38.41254000000001
+183,Copper,good,Italian,38.388759999999984
+184,Phosphorus,good,Southern,38.274108216432886
+185,Potassium,good,Irish,38.206600000000044
+186,Phosphorus,good,French,38.135639999999995
+187,Vitamin B3,good,French,38.12562000000002
+188,Phosphorus,good,Mediterranean,37.938939999999945
+189,Manganese,good,Vietnamese,37.866139999999945
+190,Saturated Fat,bad,Latin American,37.85777999999998
+191,Phosphorus,good,Cajun,37.770120000000006
+192,Vitamin B3,good,African,37.768035714285716
+193,Copper,good,European,37.65005999999996
+194,Vitamin B6,good,Southern,37.5102
+195,Vitamin C,good,German,37.50109263657953
+196,Saturated Fat,bad,Cajun,37.48818000000001
+197,Vitamin B3,good,Southern,37.43098000000001
+198,Fat,bad,Irish,37.41938000000003
+199,Phosphorus,good,European,37.396279999999976
+200,Alcohol,bad,Nordic,37.39472222222222
+201,Copper,good,Mediterranean,37.22359999999999
+202,Vitamin B3,good,Vietnamese,37.18547094188378
+203,Vitamin K,good,Eastern European,36.979014084507064
+204,Manganese,good,Irish,36.831080000000014
+205,Saturated Fat,bad,Caribbean,36.76556000000001
+206,Vitamin B12,good,Indian,36.731339712918654
+207,Vitamin B6,good,Caribbean,36.31345814977972
+208,Sodium,bad,American,36.292199999999994
+209,Phosphorus,good,Thai,36.18524000000003
+210,Saturated Fat,bad,Italian,36.09843999999997
+211,Zinc,good,Eastern European,36.057079999999985
+212,Fiber,good,European,36.05056224899599
+213,Potassium,good,American,36.03334000000003
+214,Saturated Fat,bad,African,36.00852941176467
+215,Cholesterol,bad,Spanish,36.00723999999999
+216,Vitamin B1,good,American,35.993320000000004
+217,Alcohol,bad,Caribbean,35.974333333333334
+218,Vitamin B12,good,Korean,35.96430025445295
+219,Sodium,bad,Southern,35.69320000000002
+220,Sodium,bad,Mediterranean,35.64622000000003
+221,Fat,bad,French,35.550620000000016
+222,Phosphorus,good,Indian,35.47747999999999
+223,Cholesterol,bad,Eastern European,35.39822000000004
+224,Phosphorus,good,Chinese,35.39601202404806
+225,Phosphorus,good,Spanish,35.30788000000001
+226,Sodium,bad,French,35.30576000000001
+227,Fiber,good,Mediterranean,35.25784708249496
+228,Cholesterol,bad,French,35.17541999999999
+229,Vitamin C,good,Jewish,35.074523809523804
+230,Saturated Fat,bad,Korean,34.932599999999965
+231,Vitamin B12,good,Eastern European,34.78157427937916
+232,Vitamin B12,good,Thai,34.611493506493524
+233,Vitamin B6,good,African,34.60070588235293
+234,Fat,bad,British,34.49570000000001
+235,Folate,good,French,34.487259999999985
+236,Sodium,bad,Latin American,34.45556
+237,Sodium,bad,African,34.41629411764707
+238,Sodium,bad,European,34.23364000000003
+239,Vitamin B3,good,Spanish,34.11364000000002
+240,Saturated Fat,bad,Spanish,33.94958000000001
+241,Fat,bad,Eastern European,33.84791999999997
+242,Potassium,good,European,33.823399999999964
+243,Cholesterol,bad,German,33.69967999999997
+244,Fat,bad,Southern,33.67040000000001
+245,Selenium,good,Nordic,33.58761772853185
+246,Vitamin A,good,British,33.56737068965518
+247,Fat,bad,Spanish,33.56619999999999
+248,Vitamin B12,good,Cajun,33.54041450777205
+249,Selenium,good,Indian,33.33933467741937
+250,Vitamin B3,good,European,33.1997
+251,Vitamin B12,good,Southern,33.16515942028983
+252,Phosphorus,good,Korean,33.09962000000003
+253,Potassium,good,Indian,33.060879999999976
+254,Fiber,good,Italian,33.0105220883534
+255,Vitamin B6,good,Vietnamese,32.992959999999975
+256,Zinc,good,Irish,32.89957999999999
+257,Vitamin B3,good,Mediterranean,32.87782000000001
+258,Vitamin B3,good,Italian,32.71231999999999
+259,Vitamin B12,good,American,32.710664556961994
+260,Protein,good,Nordic,32.65856
+261,Phosphorus,good,Latin American,32.617073170731715
+262,Fat,bad,Thai,32.574359999999984
+263,Iron,good,American,32.57070000000001
+264,Fat,bad,German,32.56335999999996
+265,Saturated Fat,bad,Mediterranean,32.52959999999998
+266,Vitamin B12,good,European,32.46449230769233
+267,Vitamin B2,good,European,32.32585999999999
+268,Vitamin B3,good,German,32.30544354838707
+269,Potassium,good,Mediterranean,32.11471999999999
+270,Protein,good,British,31.369659999999975
+271,Potassium,good,French,31.295419999999993
+272,Cholesterol,bad,Nordic,31.267226666666684
+273,Manganese,good,Eastern European,31.205290581162334
+274,Potassium,good,Jewish,31.02754000000002
+275,Saturated Fat,bad,American,30.97611999999997
+276,Potassium,good,Italian,30.916720000000005
+277,Saturated Fat,bad,European,30.90111999999999
+278,Vitamin B2,good,Mediterranean,30.789119999999997
+279,Vitamin B2,good,Italian,30.743380000000013
+280,Selenium,good,African,30.692160493827167
+281,Vitamin B1,good,Italian,30.580060000000014
+282,Folate,good,Thai,30.53605210420843
+283,Calcium,good,Italian,30.513100000000005
+284,Fat,bad,Middle Eastern,30.47374
+285,Cholesterol,bad,Korean,30.468480000000003
+286,Vitamin B2,good,French,30.468180000000014
+287,Phosphorus,good,British,30.3830861723447
+288,Vitamin B6,good,German,30.28629258517033
+289,Cholesterol,bad,Irish,30.27413999999997
+290,Vitamin B1,good,European,30.179180000000017
+291,Magnesium,good,American,30.11985999999999
+292,Vitamin B2,good,American,30.10688000000002
+293,Fiber,good,Southern,30.078531187122774
+294,Fiber,good,French,30.07538306451614
+295,Vitamin B1,good,Southern,30.014440000000008
+296,Fat,bad,Jewish,30.012499999999996
+297,Vitamin B2,good,Southern,29.994739999999993
+298,Vitamin K,good,Caribbean,29.958781038374745
+299,Vitamin B1,good,Mediterranean,29.890940000000008
+300,Fat,bad,Cajun,29.85538
+301,Vitamin B6,good,Middle Eastern,29.829660000000004
+302,Fat,bad,Nordic,29.817573333333357
+303,Zinc,good,Latin American,29.775204081632648
+304,Magnesium,good,Indian,29.721400000000006
+305,Fat,bad,African,29.71982352941176
+306,Phosphorus,good,Middle Eastern,29.66786000000001
+307,Vitamin K,good,Jewish,29.581700819672108
+308,Fat,bad,Korean,29.53731999999999
+309,Magnesium,good,European,29.455440000000024
+310,Vitamin A,good,German,29.406542669584276
+311,Copper,good,American,29.394939999999973
+312,Iron,good,Indian,29.29498000000001
+313,Zinc,good,Korean,29.19749498997995
+314,Iron,good,Italian,29.05914000000001
+315,Phosphorus,good,Vietnamese,29.05886
+316,Manganese,good,Caribbean,29.021690721649474
+317,Magnesium,good,Italian,28.968840000000014
+318,Copper,good,Middle Eastern,28.937640000000016
+319,Folate,good,Chinese,28.915119999999956
+320,Folate,good,Spanish,28.861899999999995
+321,Magnesium,good,Mediterranean,28.818160000000027
+322,Cholesterol,bad,Chinese,28.778120000000015
+323,Iron,good,European,28.70337999999999
+324,Protein,good,Middle Eastern,28.697119999999984
+325,Manganese,good,German,28.64738
+326,Iron,good,Jewish,28.62147999999998
+327,Magnesium,good,Thai,28.53108000000001
+328,Fiber,good,Irish,28.514749498997997
+329,Manganese,good,Jewish,28.447459999999978
+330,Sodium,bad,Caribbean,28.327519999999968
+331,Fat,bad,Italian,28.326200000000007
+332,Iron,good,Mediterranean,28.245120000000014
+333,Potassium,good,Eastern European,28.207519999999995
+334,Cholesterol,bad,Southern,28.17203999999997
+335,Potassium,good,Thai,27.952900000000017
+336,Sodium,bad,Middle Eastern,27.945920000000015
+337,Copper,good,Indian,27.935679999999987
+338,Phosphorus,good,African,27.904235294117644
+339,Cholesterol,bad,British,27.90268000000001
+340,Fat,bad,Mediterranean,27.883520000000008
+341,Cholesterol,bad,Latin American,27.780880000000007
+342,Fat,bad,European,27.547559999999983
+343,Vitamin B12,good,Mediterranean,27.477582089552232
+344,Vitamin B2,good,Jewish,27.37843999999997
+345,Vitamin C,good,British,27.3015099009901
+346,Vitamin B1,good,Chinese,27.263860000000005
+347,Phosphorus,good,German,27.240099999999998
+348,Potassium,good,Cajun,27.164220000000004
+349,Fat,bad,American,26.95608000000002
+350,Calcium,good,Mediterranean,26.886579999999995
+351,Calcium,good,Southern,26.79713999999999
+352,Vitamin B1,good,Cajun,26.736232464929863
+353,Vitamin B2,good,Eastern European,26.675560000000004
+354,Vitamin B2,good,Spanish,26.577979999999986
+355,Fiber,good,Spanish,26.48775551102207
+356,Vitamin B1,good,Vietnamese,26.436753507014043
+357,Phosphorus,good,Caribbean,26.23344827586201
+358,Calories,bad,Irish,26.043819999999993
+359,Fat,bad,Chinese,26.035819999999973
+360,Potassium,good,Spanish,26.022880000000004
+361,Fat,bad,Indian,26.018419999999985
+362,Copper,good,Cajun,25.84567134268538
+363,Iron,good,French,25.80333999999998
+364,Vitamin B12,good,Nordic,25.797109634551507
+365,Vitamin C,good,Nordic,25.681076923076937
+366,Vitamin B1,good,Irish,25.65952
+367,Vitamin B2,good,Irish,25.632540000000006
+368,Sodium,bad,British,25.56294000000001
+369,Vitamin B1,good,Indian,25.49366
+370,Copper,good,Spanish,25.39102
+371,Calcium,good,European,25.34540000000001
+372,Vitamin E,good,Spanish,25.33271084337348
+373,Vitamin B1,good,German,25.31104208416835
+374,Copper,good,Thai,25.285539999999997
+375,Vitamin B1,good,French,25.268939999999997
+376,Sodium,bad,Indian,25.263960000000004
+377,Iron,good,Irish,25.18648000000002
+378,Fat,bad,Caribbean,25.110219999999995
+379,Potassium,good,Chinese,24.987719999999996
+380,Saturated Fat,bad,Vietnamese,24.844500000000004
+381,Vitamin B1,good,Spanish,24.811919999999997
+382,Potassium,good,African,24.682705882352934
+383,Iron,good,Spanish,24.66822000000001
+384,Magnesium,good,Southern,24.665839999999996
+385,Fiber,good,Thai,24.56418181818181
+386,Cholesterol,bad,Caribbean,24.497140000000044
+387,Potassium,good,Southern,24.462939999999982
+388,Calories,bad,Spanish,24.440439999999995
+389,Vitamin E,good,European,24.253555555555565
+390,Potassium,good,Korean,24.245699999999996
+391,Potassium,good,Latin American,24.231583166332655
+392,Folate,good,Irish,24.212424849699424
+393,Zinc,good,American,24.160419999999977
+394,Saturated Fat,bad,Chinese,24.125240000000005
+395,Vitamin B12,good,Italian,24.116275071633236
+396,Vitamin B1,good,Middle Eastern,24.112299999999983
+397,Folate,good,Korean,24.06774647887322
+398,Vitamin D,good,Southern,24.058202247191026
+399,Vitamin B2,good,Chinese,24.027915831663332
+400,Alcohol,bad,French,24.010151515151513
+401,Iron,good,Southern,23.978276553106202
+402,Vitamin E,good,Mediterranean,23.925947580645175
+403,Calories,bad,Jewish,23.893960000000007
+404,Cholesterol,bad,Vietnamese,23.891919999999992
+405,Copper,good,Southern,23.891122244488965
+406,Cholesterol,bad,African,23.869058823529425
+407,Iron,good,Middle Eastern,23.864399999999996
+408,Vitamin B12,good,African,23.66903846153845
+409,Calories,bad,British,23.65942
+410,Magnesium,good,French,23.624180000000013
+411,Vitamin E,good,Italian,23.623158953722346
+412,Calories,bad,Eastern European,23.60859999999998
+413,Calories,bad,Southern,23.60108
+414,Vitamin B12,good,Vietnamese,23.577981366459625
+415,Iron,good,Korean,23.516840000000027
+416,Vitamin B3,good,Nordic,23.507138810198285
+417,Iron,good,Thai,23.493399999999983
+418,Vitamin E,good,American,23.4851836734694
+419,Calories,bad,Italian,23.45727999999996
+420,Fat,bad,Vietnamese,23.41543999999998
+421,Fiber,good,African,23.410823529411772
+422,Magnesium,good,Chinese,23.385320000000018
+423,Vitamin B1,good,British,23.3779759519038
+424,Calories,bad,American,23.36368
+425,Fiber,good,Cajun,23.29108216432866
+426,Calories,bad,French,23.25275999999997
+427,Vitamin B2,good,Korean,23.22607999999999
+428,Iron,good,Cajun,23.223687374749495
+429,Copper,good,French,23.18671999999998
+430,Vitamin E,good,Southern,23.03427402862986
+431,Magnesium,good,Middle Eastern,22.971340000000012
+432,Calories,bad,Cajun,22.86648000000001
+433,Magnesium,good,Spanish,22.83616000000001
+434,Folate,good,Cajun,22.825575757575745
+435,Iron,good,Eastern European,22.789078156312648
+436,Vitamin K,good,Nordic,22.78708955223882
+437,Magnesium,good,Cajun,22.764019999999984
+438,Calories,bad,Mediterranean,22.70467999999999
+439,Vitamin B1,good,Eastern European,22.628200000000014
+440,Copper,good,Irish,22.61885999999999
+441,Calories,bad,European,22.574299999999976
+442,Vitamin E,good,Latin American,22.41301810865191
+443,Fiber,good,Chinese,22.39770623742453
+444,Cholesterol,bad,Thai,22.32048
+445,Vitamin E,good,French,22.20481707317072
+446,Magnesium,good,Irish,22.198340000000005
+447,Calories,bad,Thai,22.17109999999998
+448,Vitamin B2,good,Cajun,22.1051503006012
+449,Vitamin B2,good,British,22.020620000000005
+450,Vitamin B6,good,Nordic,21.989130434782624
+451,Folate,good,Vietnamese,21.595110220440862
+452,Vitamin B1,good,Jewish,21.575660000000003
+453,Manganese,good,Latin American,21.50643286573148
+454,Calories,bad,German,21.48408
+455,Calories,bad,Latin American,21.419779999999996
+456,Vitamin B1,good,Thai,21.307639999999974
+457,Calories,bad,Chinese,21.25436
+458,Calories,bad,Indian,21.239299999999993
+459,Zinc,good,French,21.21090180360722
+460,Potassium,good,Vietnamese,21.162759999999984
+461,Calcium,good,French,21.143580000000018
+462,Potassium,good,Middle Eastern,21.116219999999995
+463,Vitamin B3,good,British,21.10377016129036
+464,Calcium,good,American,21.063199999999995
+465,Copper,good,Korean,21.006539999999998
+466,Phosphorus,good,Nordic,20.995710382513668
+467,Vitamin B2,good,German,20.95120000000003
+468,Fiber,good,Korean,20.895020325203248
+469,Vitamin B2,good,Thai,20.893006012024067
+470,Calories,bad,Korean,20.892760000000006
+471,Saturated Fat,bad,Middle Eastern,20.850700000000003
+472,Copper,good,Chinese,20.80505010020041
+473,Iron,good,Latin American,20.787254509018037
+474,Vitamin B1,good,Korean,20.786993987975936
+475,Alcohol,bad,Jewish,20.642096774193558
+476,Magnesium,good,Korean,20.52295999999999
+477,Zinc,good,Southern,20.45305220883532
+478,Calories,bad,Vietnamese,20.406780000000012
+479,Zinc,good,European,20.320759999999982
+480,Zinc,good,Cajun,20.28436000000001
+481,Vitamin B2,good,Indian,20.20895999999999
+482,Vitamin B12,good,British,20.202421524663688
+483,Zinc,good,Mediterranean,20.088499999999993
+484,Zinc,good,Italian,20.079959999999982
+485,Magnesium,good,African,20.004529411764707
+486,Calories,bad,African,19.86682352941176
+487,Folate,good,British,19.807274549098185
+488,Vitamin B2,good,Vietnamese,19.792879999999982
+489,Magnesium,good,Jewish,19.75694000000001
+490,Iron,good,Vietnamese,19.61922
+491,Zinc,good,Thai,19.54338000000001
+492,Cholesterol,bad,American,19.38631999999999
+493,Copper,good,Eastern European,19.371759999999984
+494,Alcohol,bad,Eastern European,19.369220779220786
+495,Vitamin B1,good,Nordic,19.36219178082193
+496,Iron,good,Chinese,19.34434000000001
+497,Folate,good,Latin American,19.321740000000002
+498,Vitamin B5,good,American,19.24747494989979
+499,Copper,good,African,19.24676470588234
+500,Vitamin B12,good,Chinese,19.115449735449744
+501,Copper,good,German,19.108196392785583
+502,Vitamin E,good,African,19.10533333333334
+503,Copper,good,Jewish,19.103400000000004
+504,Fiber,good,Eastern European,18.893046092184385
+505,Zinc,good,Spanish,18.853099999999994
+506,Fiber,good,Latin American,18.82251521298173
+507,Vitamin B2,good,Latin American,18.788350305498998
+508,Folate,good,Eastern European,18.77208835341364
+509,Alcohol,bad,Spanish,18.724729729729738
+510,Calories,bad,Middle Eastern,18.718759999999993
+511,Iron,good,African,18.687941176470588
+512,Potassium,good,German,18.65018181818181
+513,Magnesium,good,Vietnamese,18.61198
+514,Zinc,good,Chinese,18.52395582329317
+515,Fiber,good,Vietnamese,18.39747474747474
+516,Magnesium,good,Eastern European,18.348019999999977
+517,Calories,bad,Caribbean,18.29576
+518,Caffeine,bad,European,18.2025
+519,Carbohydrates,bad,Italian,18.10116
+520,Zinc,good,Indian,18.090641282565123
+521,Alcohol,bad,Irish,18.07753623188406
+522,Zinc,good,Vietnamese,18.048280000000016
+523,Vitamin B5,good,French,17.98565392354124
+524,Vitamin B12,good,Caribbean,17.96518617021278
+525,Vitamin E,good,Thai,17.88609657947684
+526,Potassium,good,Caribbean,17.84447154471545
+527,Calories,bad,Nordic,17.81781333333334
+528,Carbohydrates,bad,British,17.81624000000002
+529,Manganese,good,Nordic,17.795896739130434
+530,Caffeine,bad,Italian,17.7825
+531,Caffeine,bad,Mediterranean,17.7825
+532,Iron,good,German,17.767240000000005
+533,Vitamin B2,good,Nordic,17.756829268292673
+534,Alcohol,bad,Southern,17.75571428571429
+535,Vitamin B5,good,Chinese,17.707935222672077
+536,Vitamin E,good,Korean,17.614188034188036
+537,Vitamin D,good,Indian,17.582473118279573
+538,Caffeine,bad,Irish,17.578571428571426
+539,Fiber,good,Jewish,17.56424180327871
+540,Magnesium,good,Latin American,17.55816532258066
+541,Vitamin B5,good,Indian,17.536363636363628
+542,Carbohydrates,bad,European,17.52153999999999
+543,Carbohydrates,bad,American,17.498980000000003
+544,Sugar,bad,British,17.475080000000013
+545,Carbohydrates,bad,Mediterranean,17.47488
+546,Folate,good,German,17.424200000000006
+547,Copper,good,Vietnamese,17.417379999999994
+548,Vitamin E,good,Cajun,17.368137651821865
+549,Vitamin E,good,Indian,17.301518218623496
+550,Selenium,good,Middle Eastern,17.233765690376575
+551,Vitamin B1,good,Caribbean,17.17510729613732
+552,Vitamin B6,good,British,17.1473185483871
+553,Alcohol,bad,German,17.13010526315789
+554,Vitamin E,good,Middle Eastern,17.101724137931026
+555,Vitamin B5,good,Irish,17.041519999999974
+556,Sugar,bad,Caribbean,17.012919999999994
+557,Iron,good,British,16.935540000000003
+558,Alcohol,bad,Vietnamese,16.67
+559,Folate,good,African,16.65869822485207
+560,Fiber,good,Caribbean,16.611174004192872
+561,Vitamin B5,good,Cajun,16.602837022132803
+562,Vitamin B2,good,African,16.593076923076914
+563,Vitamin B5,good,Thai,16.577108433734942
+564,Vitamin A,good,Nordic,16.566439169139468
+565,Vitamin E,good,Chinese,16.550163265306125
+566,Fiber,good,British,16.518919999999987
+567,Carbohydrates,bad,Indian,16.48824
+568,Vitamin B1,good,Latin American,16.432102040816343
+569,Vitamin B5,good,European,16.36881287726359
+570,Potassium,good,British,16.360920000000007
+571,Vitamin D,good,Latin American,16.356574585635393
+572,Vitamin D,good,French,16.322265625000007
+573,Vitamin B5,good,Mediterranean,16.304839357429724
+574,Fiber,good,German,16.27818737270878
+575,Iron,good,Caribbean,16.24510288065843
+576,Vitamin B1,good,African,16.207176470588223
+577,Vitamin B5,good,Southern,16.205823293172706
+578,Vitamin B5,good,Italian,16.180901803607224
+579,Cholesterol,bad,Italian,16.059160000000006
+580,Zinc,good,African,16.03
+581,Copper,good,British,16.020740000000007
+582,Vitamin B5,good,Eastern European,16.010641282565125
+583,Sugar,bad,German,15.98824000000001
+584,Folate,good,Jewish,15.968699999999986
+585,Carbohydrates,bad,Spanish,15.904920000000013
+586,Vitamin B3,good,Middle Eastern,15.89765531062126
+587,Carbohydrates,bad,Irish,15.88022
+588,Calcium,good,British,15.834168336673349
+589,Copper,good,Latin American,15.833825910931154
+590,Caffeine,bad,Vietnamese,15.8
+591,Alcohol,bad,Latin American,15.787916666666666
+592,Vitamin K,good,British,15.727397849462374
+593,Calcium,good,Indian,15.692439999999994
+594,Zinc,good,Nordic,15.671871345029254
+595,Zinc,good,Middle Eastern,15.670020000000012
+596,Vitamin B12,good,German,15.514183908045986
+597,Vitamin B2,good,Caribbean,15.459591002044991
+598,Vitamin B5,good,Spanish,15.231244979919678
+599,Folate,good,Caribbean,15.16958333333335
+600,Calcium,good,Irish,15.166960000000003
+601,Vitamin D,good,Spanish,15.13522471910113
+602,Carbohydrates,bad,Southern,15.13206
+603,Vitamin D,good,Cajun,15.081111111111108
+604,Zinc,good,German,15.03829659318636
+605,Alcohol,bad,European,14.939677419354839
+606,Carbohydrates,bad,Vietnamese,14.932979999999995
+607,Zinc,good,Caribbean,14.900294736842124
+608,Calcium,good,Spanish,14.874539999999994
+609,Sugar,bad,African,14.862823529411763
+610,Calcium,good,Korean,14.772665330661335
+611,Magnesium,good,Caribbean,14.551552419354831
+612,Vitamin B5,good,African,14.49893491124261
+613,Carbohydrates,bad,Chinese,14.466859999999993
+614,Alcohol,bad,Mediterranean,14.438750000000002
+615,Alcohol,bad,Italian,14.363571428571431
+616,Cholesterol,bad,Mediterranean,14.283220000000002
+617,Magnesium,good,German,14.273975903614456
+618,Cholesterol,bad,Indian,14.177060000000003
+619,Vitamin D,good,Jewish,14.175407407407409
+620,Calcium,good,Cajun,14.086279999999993
+621,Potassium,good,Nordic,14.044478873239447
+622,Carbohydrates,bad,Cajun,14.033579999999999
+623,Vitamin B5,good,Caribbean,14.01510917030567
+624,Vitamin B12,good,Middle Eastern,13.913097345132742
+625,Vitamin B5,good,Latin American,13.88477707006369
+626,Vitamin E,good,Jewish,13.87995959595959
+627,Sugar,bad,Jewish,13.860160000000002
+628,Cholesterol,bad,European,13.820039999999992
+629,Sugar,bad,Thai,13.775800000000006
+630,Magnesium,good,British,13.757895791583136
+631,Vitamin B5,good,Korean,13.576094069529647
+632,Carbohydrates,bad,Thai,13.369460000000007
+633,Carbohydrates,bad,German,13.329780000000007
+634,Carbohydrates,bad,French,13.291139999999999
+635,Calcium,good,Eastern European,13.257219999999993
+636,Sugar,bad,Vietnamese,13.123779999999984
+637,Calcium,good,Middle Eastern,13.118059999999995
+638,Alcohol,bad,African,13.054666666666666
+639,Calcium,good,Thai,13.011900000000002
+640,Carbohydrates,bad,Middle Eastern,12.87856
+641,Carbohydrates,bad,Eastern European,12.869140000000014
+642,Calcium,good,Chinese,12.820580000000007
+643,Vitamin E,good,Caribbean,12.7993777777778
+644,Copper,good,Caribbean,12.71325865580449
+645,Vitamin B5,good,German,12.709794661190958
+646,Vitamin B2,good,Middle Eastern,12.671199999999997
+647,Carbohydrates,bad,African,12.488058823529421
+648,Sugar,bad,Korean,12.469759999999999
+649,Vitamin B5,good,Jewish,12.445771543086174
+650,Vitamin E,good,Eastern European,12.439516129032265
+651,Sugar,bad,American,12.388519999999998
+652,Sugar,bad,Nordic,12.373173333333327
+653,Sugar,bad,Southern,12.25834
+654,Vitamin B5,good,Vietnamese,12.25686868686869
+655,Folate,good,Nordic,12.228861111111094
+656,Carbohydrates,bad,Korean,12.185399999999998
+657,Zinc,good,British,12.144457831325298
+658,Sugar,bad,Indian,12.040259999999984
+659,Iron,good,Nordic,11.956064690026956
+660,Sugar,bad,French,11.747640000000013
+661,Carbohydrates,bad,Jewish,11.680919999999995
+662,Vitamin D,good,American,11.590918367346944
+663,Calcium,good,German,11.505959595959599
+664,Calcium,good,African,11.485917159763314
+665,Alcohol,bad,American,11.395454545454545
+666,Sugar,bad,Chinese,11.373880000000003
+667,Sugar,bad,European,11.334959999999993
+668,Sugar,bad,Mediterranean,11.248480000000013
+669,Sugar,bad,Italian,11.131779999999997
+670,Carbohydrates,bad,Caribbean,10.988180000000002
+671,Caffeine,bad,Thai,10.604
+672,Calcium,good,Latin American,10.599436619718327
+673,Vitamin E,good,German,10.53349892008639
+674,Calcium,good,Vietnamese,10.493140000000011
+675,Sugar,bad,Irish,10.478660000000012
+676,Alcohol,bad,Indian,10.476666666666667
+677,Vitamin E,good,Vietnamese,10.266881496881492
+678,Calcium,good,Jewish,10.232625250501
+679,Alcohol,bad,Middle Eastern,10.206666666666665
+680,Alcohol,bad,Cajun,10.066756756756757
+681,Vitamin E,good,Irish,9.904618556701037
+682,Magnesium,good,Nordic,9.878526912181313
+683,Vitamin E,good,British,9.874448979591836
+684,Fiber,good,Nordic,9.848076923076926
+685,Vitamin B5,good,Nordic,9.824524495677235
+686,Vitamin B5,good,Middle Eastern,9.734129554655873
+687,Copper,good,Nordic,9.60202857142858
+688,Sugar,bad,Eastern European,9.58141999999999
+689,Alcohol,bad,British,9.543296703296699
+690,Carbohydrates,bad,Nordic,9.525306666666664
+691,Caffeine,bad,Spanish,9.483333333333333
+692,Sugar,bad,Cajun,9.260579999999988
+693,Vitamin B5,good,British,9.152545454545452
+694,Sugar,bad,Spanish,9.145900000000012
+695,Calcium,good,Caribbean,8.926144329896907
+696,Caffeine,bad,Cajun,8.743333333333332
+697,Caffeine,bad,British,8.522857142857143
+698,Vitamin D,good,Mediterranean,8.426438356164384
+699,Calcium,good,Nordic,8.314971264367816
+700,Vitamin D,good,Vietnamese,8.120888888888885
+701,Vitamin D,good,European,7.971582733812948
+702,Alcohol,bad,Korean,7.875060240963858
+703,Caffeine,bad,Indian,7.87
+704,Vitamin E,good,Nordic,7.861210191082805
+705,Vitamin D,good,British,7.821304347826085
+706,Carbohydrates,bad,Latin American,7.812280000000001
+707,Vitamin D,good,Thai,7.611190476190476
+708,Caffeine,bad,Caribbean,7.296486486486486
+709,Vitamin D,good,Italian,7.21628571428571
+710,Vitamin D,good,Korean,7.129898989898994
+711,Sugar,bad,Middle Eastern,6.9871
+712,Vitamin D,good,German,6.931054131054128
+713,Vitamin D,good,African,6.914745762711862
+714,Sugar,bad,Latin American,6.370079999999998
+715,Vitamin D,good,Nordic,6.309709543568461
+716,Caffeine,bad,German,6.212372881355931
+717,Alcohol,bad,Chinese,5.860131578947371
+718,Vitamin D,good,Caribbean,5.7630051813471495
+719,Vitamin D,good,Chinese,5.676111111111111
+720,Vitamin D,good,Middle Eastern,5.516285714285714
+721,Caffeine,bad,Southern,5.3545454545454545
+722,Alcohol,bad,Thai,5.1075
+723,Caffeine,bad,Jewish,4.734666666666667
+724,Vitamin D,good,Eastern European,4.707601351351351
+725,Caffeine,bad,Nordic,4.499
+726,Vitamin D,good,Irish,4.231535947712419
+727,Cholesterol,bad,Middle Eastern,3.867600000000001
+728,Caffeine,bad,American,3.466666666666667
+729,Caffeine,bad,Latin American,3.14
+730,Caffeine,bad,Korean,2.85
+731,Caffeine,bad,African,2.6914285714285713
