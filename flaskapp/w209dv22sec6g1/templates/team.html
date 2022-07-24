@@ -1,179 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>flaskapp site for w209dv22sec6g1</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    html {
-      box-sizing: border-box;
-    }
-    
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
-    
-    .column {
-      float: left;
-      width: 33.3%;
-      margin-bottom: 16px;
-      padding: 0 8px;
-    }
-    
-    @media screen and (max-width: 650px) {
-      .column {
-        width: 100%;
-        display: block;
-      }
-    }
-    
-    .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    
-    .container {
-      padding: 0 16px;
-    }
-    
-    .container::after, .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    
-    .title {
-      color: grey;
-    }
-    
-    .button {
-      border: none;
-      outline: 0;
-      display: inline-block;
-      padding: 8px;
-      color: white;
-      background-color: #000;
-      text-align: center;
-      cursor: pointer;
-      width: 100%;
-    }
-    
-    .button:hover {
-      background-color: #555;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <head>
+      <title>flaskapp site for w209dv22sec6g1</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+         html {
+         box-sizing: border-box;
+         }
+         *, *:before, *:after {
+         box-sizing: inherit;
+         }
+         .column {
+         float: left;
+         width: 33.3%;
+         margin-bottom: 16px;
+         padding: 0 8px;
+         }
+         @media screen and (max-width: 650px) {
+         .column {
+         width: 100%;
+         display: block;
+         }
+         }
+         .container {
+         padding: 0 16px;
+         }
+         .container::after, .row::after {
+         content: "";
+         clear: both;
+         display: table;
+         }
+         .title {
+         color: grey;
+         }
+         .button {
+         border: none;
+         outline: 0;
+         display: inline-block;
+         padding: 8px;
+         color: white;
+         background-color: #000;
+         text-align: center;
+         cursor: pointer;
+         width: 100%;
+         }
+         .button:hover {
+         background-color: #555;
+         }
+         .card {
+         margin: 0 auto;
+         float: none;
+         margin-bottom: 10px;
+         display:inline-block;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container text-center">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="/w209dv22sec6g1">Recipe Radar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
-    
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="{{ url_for('view_about') }}">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('view_flavor_profiles_page') }}">Flavor Profiles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('view_nutrition_page') }}">Nutrition</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('view_ingredients_page') }}">Ingredients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('view_team_page') }}">Meet the Team</a>
-                    </li>
-                </ul>
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="{{ url_for('view_about') }}">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url_for('view_flavor_profiles_page') }}">Flavor Profiles</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url_for('view_nutrition_page') }}">Nutrition</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url_for('view_ingredients_page') }}">Ingredients</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url_for('view_team_page') }}">Meet the Team</a>
+                  </li>
+               </ul>
             </div>
-        </nav>
-    
-        <div class="jumbotron">
-          <h1 class="display-4">
-        		{% if title %}
-        		  {{ title }}
-        		{% else %}
-        		  Default title
-        		{% endif %}
-          </h1>
-       </div>
-    </div>
-    
-    <h2>Meet the Team</h2>
-    <br>
-    
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="/w209dv22sec6g1/static/john.jpg" alt="John" style="width:100%">
-          <div class="container">
-            <h2>John Mah</h2>
-            <p class="title">Developer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
+         </nav>
+
+
+        <!-- Start of Cards -->
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/john.jpg" alt="John">
+            <div class="card-body">
+               <h5 class="card-title">John Mah</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://www.linkedin.com/in/johnathansmah/" class="btn btn-primary">LinkedIn</a>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/cody.png" alt="Cody">
+            <div class="card-body">
+               <h5 class="card-title">Cody Burker</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://www.linkedin.com/in/cody-burker/" class="btn btn-primary">LinkedIn</a>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/robert.jpg" alt="Robert">
+            <div class="card-body">
+               <h5 class="card-title">Robert Turnage</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://www.linkedin.com/in/turnagerobert/" class="btn btn-primary">LinkedIn</a>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/margo.png" alt="Margo">
+            <div class="card-body">
+               <h5 class="card-title">Margo Suryanaga</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://www.linkedin.com/in/margo-suryanaga/" class="btn btn-primary">LinkedIn</a>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/rishika.jpg" alt="Rishika">
+            <div class="card-body">
+               <h5 class="card-title">Rishika Pulvender</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://www.linkedin.com/in/rishika-p-ab900a9b/" class="btn btn-primary">LinkedIn</a>
+            </div>
+         </div>
+      <!-- End of Cards -->
       </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="/w209dv22sec6g1/static/robert.jpg" alt="Robert" style="width:100%">
-          <div class="container">
-            <h2>Robert Turnage</h2>
-            <p class="title">Developer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>robert.turnage@berkeley.edu</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="/w209dv22sec6g1/static/rishika.jpg" alt="Rishika" style="width:100%">
-          <div class="container">
-            <h2>Rishika Pulvender</h2>
-            <p class="title">Developer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>rishika.pulvender@berkeley.edu</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="/w209dv22sec6g1/static/cody.png" alt="Cody" style="width:100%">
-          <div class="container">
-            <h2>Cody Burker</h2>
-            <p class="title">Developer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>cody.burker@berkeley.edu</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="/w209dv22sec6g1/static/margo.png" alt="Margo" style="width:100%">
-          <div class="container">
-            <h2>Margo Suryanaga</h2>
-            <p class="title">Developer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>margo.suryanaga@berkeley.edu</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    </body>
+   </body>
 </html>
