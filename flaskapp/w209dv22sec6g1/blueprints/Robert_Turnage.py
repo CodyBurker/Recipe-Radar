@@ -126,8 +126,8 @@ def TopIngredients():
       , color=alt.Color('Cuisine:N', scale=alt.Scale(range=colorpalette))
       , tooltip=alt.Tooltip(["Cuisine", "Count", "Name"])
     ).properties(
-        title="Top 10 Count of Ingredients for by Cuisines"
-      , height = 300
+        #title="Top 10 Count of Ingredients for Recipes by Cuisines"
+        height = 300
       , width = 400 
     ).interactive()
        
