@@ -58,22 +58,45 @@
             		  Default title
             		{% endif %}
   	           </h1>
+  	           <p> Using "Cuisine" as a regionally defined value from Spoonacular, we can analyze by ingredient
+  	               too learn more insights into composition of reciepes by region. 
+  	           </p>
            </div>
         </div>
                 
         <div class="container">
           <div class="charts text-center">
             <div class="row">
-                <div id="TopIngredients"></div> 
-                </br>                
-                <div id="FirstIngredients"></div> 
-                </br>                
-                <div id="SecondIngredients"></div> 
-                </br>                
-                <div id="ThirdIngredients"></div> 
-                </br>                
-                <div id="Pie"></div> 
-                </br>                
+            <table style="border-collapse: collapse; margin-left: auto; margin-right: auto;"><tbody>
+                <tr>                
+                    <td colspan="3">
+                        <div id="TopIngredients"></div> 
+                    </td>
+                </tr>
+                <tr>                
+                    <td colspan="3">
+                        <p>
+                            <h2><b>Top 3 with Ingredient for Count of Recipes by Cuisine</b></h2>
+                            <p>y-axis is the count of ingredients that are found in Recipes by Cuisine for the top 3 ingredients found above.</p>
+                            <p>x-axis follows the legend key for the above chart for Cuisine.</p>
+                        </p> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="FirstIngredients"></div>   
+                    </td>
+                    <td>
+                        <div id="SecondIngredients"></div>  
+                    </td>
+                    <td>         
+                        <div id="ThirdIngredients"></div> 
+                    </td>
+                    <td>                    
+                        <div id="IngredientPie"></div>          
+                    </td>     
+                </tr>             
+            </tbody></table>
             </div><hr>
             <!-- Placeholder for the tooltip -->
             <div id="vis-tooltip" class="vg-tooltip"></div>
@@ -101,7 +124,7 @@
         parse("/w209dv22sec6g1/data/ingredients/FirstIngredients","FirstIngredients");
         parse("/w209dv22sec6g1/data/ingredients/SecondIngredients","SecondIngredients");
         parse("/w209dv22sec6g1/data/ingredients/ThirdIngredients","ThirdIngredients");
-        parse("/w209dv22sec6g1/data/ingredients/Pie","Pie");
+        parse("/w209dv22sec6g1/data/ingredients/IngredientPie","IngredientPie");
         
     </script>
      
