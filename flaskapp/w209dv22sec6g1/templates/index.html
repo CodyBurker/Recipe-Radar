@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>flaskapp site for w209dv22sec6g1</title>
-    </head>
+<head>
+   <title>flaskapp site for w209dv22sec6g1</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      html {
+      box-sizing: border-box;
+      }
+      *, *:before, *:after {
+      box-sizing: inherit;
+      }
+      .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      }
+      }
+   </style>
+</head>
+
     <body>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -18,8 +38,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ url_for('view_about') }}">About <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('view_about') }}">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('view_flavor_profiles_page') }}">Flavor Profiles</a>
@@ -38,14 +58,42 @@
             </nav>
 
             <div class="jumbotron">
-              <h1 class="display-4">
-            		{% if title %}
-            		  {{ title }}
-            		{% else %}
-            		  Default title
-            		{% endif %}
-  	           </h1>
-           </div>
+              <div class="container">
+                    <div class="row">
+                      <div class="span4">
+                        <h2>About</h2>
+                        <p>The goal of this application is visualizing flavor penetrations of cuisines to allow users to see trends among flavors, macronutrients and ingredient based specifics.</p>
+                      </div>
+                      <div class="span4">
+                        <h2>Target Audience</h2>
+                        <p>Foodies, Nutritionists, Dieticians, Home Cooks, Chefs, & more !</p>
+                        <p>Users can use our site and visualizations to gain an understanding of global flavor profiles, tendencies with respect to dominating macronutrients and even dominating ingredients! </p>
+                     </div>
+                      <div class="span4">
+                        <h2>Data Source</h2>
+                        <p>The Data used for the visualization in this website is sourced from Spoonacular.</p>
+                        <p>Spoonacular is a small team of PHD Computer Scientists who have curated food and recipe related information into a database. The information is then exposed via REST and has many query parameters that run through semantic search to output results. </p>
+
+                        <p>The following steps were taken to accumulate data from Spoonacular.</p>
+                        <ol class="list-group list-group-numbered">
+                          <li class="list-group-item">1. Procure recipes based on cuisines.</li>
+                          <li class="list-group-item">2. For each recipe, call additional endpoints like flavor/nutrition/ingredients.</li>
+                          <li class="list-group-item">3. Flatten the JSON response objects from each endpoint.</li>
+                          <li class="list-group-item">4. Join relevant data into dataframes to use for visualizations.</li>
+                      </ol>
+                        <br></br>
+                        <p><a class="btn btn-primary" href="https://spoonacular.com/food-api">Spoonacular API »</a></p>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <footer>
+                      <p>© UC Berkeley</p>
+                    </footer>
+
+                </div>
+              </div>
         </div>
   </body>
 </html>
