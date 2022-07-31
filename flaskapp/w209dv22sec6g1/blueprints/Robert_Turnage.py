@@ -1,113 +1,12 @@
 from flask import  Blueprint
 import altair as alt
 import pandas as pd
-from pandasql import sqldf
 
 Robert_Turnage = Blueprint('Robert_Turnage', __name__)
 
 colorpalette = ["#ff0000","#b00000","#870000","#550000","#e4e400","#baba00","#878700","#545400","#00ff00","#00b000","#008700","#005500","#00ffff","#00b0b0","#008787","#005555","#b0b0ff","#8484ff","#4949ff","#0000ff","#ff00ff","#b000b0","#870087","#550055","#e4e4e4","#bababa","#878787","#545454"]
 colorpalette = [x.lower() for x in colorpalette]
     
-###########################
-###### Data Sources #######
-###########################
-
-# Transform Top 10 Ingredient Data
-def TopIngredients_data():
-    # From here we can shape the flattened data to flow directly into data visuals
-    df = sqldf("""
-      WITH Clean AS (--TODO:\\ Take to pre-flatten step to remove from BI
-        SELECT CASE WHEN name LIKE '%garlic%' THEN 'garlic' 
-                    WHEN name LIKE '%salt%'   THEN 'salt' 
-                    WHEN name LIKE '%ginger%' THEN 'ginger' 
-                    WHEN name LIKE '%cumin%'  THEN 'cumin' 
-                    ELSE name END             AS `Name`
-                , cuisine                     AS `Cuisine`
-          FROM ingredients
-          WHERE Name <> 'salt and pepper'
-      ) 
-      , T1 AS (
-        SELECT Name
-              , Cuisine
-              , COUNT(Name) AS `Count`
-        FROM Clean
-        GROUP BY Name, Cuisine    
-      )
-      , T2 AS (
-        SELECT Name
-              , SUM(Count) AS `SumOfCount`
-          FROM T1
-          GROUP BY Name
-      )
-      SELECT A.Name
-           , A.Cuisine
-           , A.Count
-           , B.SumOfCount
-        FROM T1 AS A
-        JOIN T2 AS B ON B.Name = A.Name
-        ORDER BY B.SumOfCount DESC, A.Name    
-    """)
-    
-    return df
-
-# Pull data for Pie Data
-def pie_data():
-      
-    df = sqldf("""
-    WITH A AS (
-        SELECT id
-             , cuisine AS `Cuisine` 
-             , COUNT(title) AS `Count`  
-          FROM ingredients  
-          GROUP BY cuisine, id
-    ),
-      B AS (
-        SELECT cuisine AS `Cuisine` 
-             , COUNT(cuisine) AS `CountOfRecipes`  
-             , SUM(Count)     AS `SumOfIngredients`  
-          FROM A  
-          GROUP BY Cuisine
-    ),
-      C AS (
-        SELECT Cuisine
-             , CAST (SumOfIngredients AS FLOAT)  / CAST (CountOfRecipes AS FLOAT)  AS `AvgIngredientPerRecipe`
-          FROM B  
-          GROUP BY Cuisine
-    )
-    , D AS (
-      SELECT B.*
-           , C.AvgIngredientPerRecipe
-        FROM B 
-        JOIN C ON C.Cuisine = B.Cuisine
-    
-    )
-    , E AS (
-      SELECT *
-           , SUM(CountOfRecipes) AS `TotalRecipes`
-           , SUM(SumOfIngredients) AS `TotalIngredients`
-        FROM D 
-    )
-    , F AS (
-      SELECT D.*
-           , CAST (D.CountOfRecipes AS FLOAT) / CAST (E.TotalRecipes AS FLOAT) AS `PercentOfRecipes`
-           , CAST (D.SumOfIngredients AS FLOAT) / CAST (E.TotalIngredients AS FLOAT) AS `PercentOfIngredients`
-        FROM D,E 
-    )
-    SELECT *
-      FROM F
-      ORDER BY AvgIngredientPerRecipe
-    
-    """)
-    dfLength = len(df['Cuisine'])
-    df['NormalizationFactor'] = (df['PercentOfRecipes'] - 1/dfLength)
-    df['NormalizedAvgIngredient'] = df['AvgIngredientPerRecipe'] * df['NormalizationFactor']
-
-    df1 = pd.DataFrame([df[['Cuisine','AvgIngredientPerRecipe']].max(), df[['Cuisine','AvgIngredientPerRecipe']].min()])
-    df1 = df1.append({'Cuisine': 'Mean(All)', 'AvgIngredientPerRecipe': df[['AvgIngredientPerRecipe']].mean()[0]}, ignore_index=True)
-    df1['AvgIngredientPerRecipe'] = df1['AvgIngredientPerRecipe'].round(2)
-    
-    return df1
-
 ###########################
 ####### Ingredients #######
 ###########################
@@ -206,21 +105,22 @@ def ThirdIngredients():
         
     return chart.to_json()
 
-@Robert_Turnage.route("/data/ingredients/IngredientPie")
-def IngredientPie(): 
+@Robert_Turnage.route("/data/ingredients/NumberOfRecipesVSCountOfIngredientByCuisine")
+def NumberOfRecipesVSCountOfIngredientByCuisine(): 
     
-    df = pd.read_csv('/groups/w209dv22sec6g1/flaskapp/data/IngredientPie.csv')
+    df = pd.read_csv('/groups/w209dv22sec6g1/flaskapp/data/NumberOfRecipesVSCountOfIngredientByCuisine.csv')
     
-    base = alt.Chart(df).encode(
-    theta=alt.Theta("AvgIngredientPerRecipe:Q", stack=True)
-      , color=alt.Color("Cuisine:N")
-    )
-    
-    pie = base.mark_arc(outerRadius=120).properties(title="Most to Least Complex as an average of Ingredients used in Recipes by Cuisine")
-    text = base.mark_text(radius=150, size=20).encode(text="AvgIngredientPerRecipe:N")
-    
-    chart = pie + text
-        
+    source = df
+    chart = alt.Chart(source).mark_circle().encode(
+         x = alt.X('Ingredient Count:Q', scale=alt.Scale(zero=False), title='Count of Ingredients')
+       , y = alt.Y('Number of Recipes:Q', scale=alt.Scale(zero=False, padding=1), title='Number of Recipes')
+       , color=alt.Color("Cuisine:N"
+            , scale=alt.Scale(range=colorpalette)
+         ) 
+       , size=alt.Size('Ingredient Count', scale=alt.Scale(domain=[0, 50]))
+       , tooltip=alt.Tooltip(['Cuisine', 'Ingredient Count', 'Number of Recipes'], )
+    ).properties(height = 800, width=500).interactive()
+            
     return chart.to_json()
 
 ###########################
