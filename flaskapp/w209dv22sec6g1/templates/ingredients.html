@@ -58,61 +58,65 @@
             		  Default title
             		{% endif %}
   	           </h1>
-  	           <p> Using "Cuisine" as a regionally defined value from Spoonacular, we can analyze by ingredient
-  	               too learn more insights into composition of reciepes by region. 
+  	           <p>
+                 Given the number of ingredients that humans eat, the total number of ways to combine them is on the order of 10 to the 15th power. And yet the actual number of recipes we eat is very small. So an ongoing challenge for food scientists is to discover laws that govern flavor combinations and use them to create new recipes yet to be experienced by human taste buds.
   	           </p>
+               <p>As such, recipe compositions by ingredients is a great way to glean into how cuisines distinguish their taste and flavor profiles. </p>
            </div>
         </div>
-                
+
         <div class="container">
-          <div class="charts text-center">
+          <div class="charts text-left">
             <div class="row">
             <table style="border-collapse: collapse; margin-left: auto; margin-right: auto;"><tbody>
-                <tr>                
+                <tr>
                     <td colspan="3">
+                        <p>In the chart below, you will find the top ten ingredients among all cuisines by count. For each of the ingredients, the distribution of recipes of cuisine can be observed by hovering over their respective color. </p>
                         <h2><b>Top 10 Count of Ingredients for Recipes by Cuisine</b></h2>
-                        <div id="TopIngredients"></div> 
+                        <div id="TopIngredients"></div>
                     </td>
                 </tr>
-                <tr>                
-                    <td colspan="3">  
+                <tr>
+                    <td colspan="3">
                         </br>
-                        </br> 
+                        </br>
                         <p>
+                            <p>The following charts are a more in depth chart for the visualization above. Insights from these charts create unique insights when compared to the taste chart under the flavor profile tab. </p>
                             <h2><b>Top 3 Count of Ingredients for Recipes by Cuisine</b></h2>
-                            <p>y-axis is the count of ingredients that are found in Recipes by Cuisine for the top 3 ingredients found above.</p>
-                            <p>x-axis follows the legend key for the above chart.</p>
-                        </p> 
+                            <p><b>y-axis is the count of ingredients that are found in Recipes by Cuisine for the top 3 ingredients found above.</b></p>
+                            <p><b>x-axis follows the legend key for the above chart.</b></p>
+                        </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div id="FirstIngredients"></div>   
+                        <div id="FirstIngredients"></div>
                     </td>
                     <td>
-                        <div id="SecondIngredients"></div>  
+                        <div id="SecondIngredients"></div>
                     </td>
-                    <td>         
-                        <div id="ThirdIngredients"></div> 
-                    </td>    
-                </tr>     
+                    <td>
+                        <div id="ThirdIngredients"></div>
+                    </td>
+                </tr>
                 <tr>
-                    <td colspan="3">     
+                    <td colspan="3">
                         </br>
-                        </br> 
-                        <h2><b>Number of Recipes vs Count of Ingredients by Cuisine</b></h2>   
-                        <p></p>           
-                        <div id="NumberOfRecipesVSCountOfIngredientByCuisine"></div>        
-                    </td> 
-                </tr>        
+                        </br>
+                        <p>It’s no question that some cuisines are on average more complex than others. A good way to determine this is by the number of ingredients in a recipe. This chart looks to visualize cuisine recipes by their number of ingredients in retrospect to one another. Zoom and hover over the chart to see specific data points. </p>
+                        <h2><b>Number of Recipes vs Count of Ingredients by Cuisine</b></h2>
+                        <p></p>
+                        <div id="NumberOfRecipesVSCountOfIngredientByCuisine"></div>
+                    </td>
+                </tr>
             </tbody></table>
             </div><hr>
             <!-- Placeholder for the tooltip -->
             <div id="vis-tooltip" class="vg-tooltip"></div>
           </div>
         </div>
-    
-        
+
+
     <!-- Render Charts -->
     <script type="text/javascript">
       function parse(url, div) {
@@ -121,21 +125,21 @@
           renderer: "svg",
           actions: {export: true, source: false, editor: false}
         };
-        
+
         vegaEmbed("#"+div, url, opt, function(error, result) {
               // result.view is the Vega View, url is the original Vega-Lite specification
               vegaTooltip.vegaLite(result.view, url);
             });
           }
-        
-    
+
+
         parse("/w209dv22sec6g1/data/ingredients/TopIngredients","TopIngredients");
         parse("/w209dv22sec6g1/data/ingredients/FirstIngredients","FirstIngredients");
         parse("/w209dv22sec6g1/data/ingredients/SecondIngredients","SecondIngredients");
         parse("/w209dv22sec6g1/data/ingredients/ThirdIngredients","ThirdIngredients");
         parse("/w209dv22sec6g1/data/ingredients/NumberOfRecipesVSCountOfIngredientByCuisine","NumberOfRecipesVSCountOfIngredientByCuisine");
-        
+
     </script>
-     
+
     </body>
 </html>

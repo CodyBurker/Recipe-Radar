@@ -50,11 +50,32 @@
                 </div>
             </nav>
 
-            <br>
-            <br>
-            <p>Below you will find a world map that shows the relative flavor/taste profiles. Countries are limited by the available cuisines data from the Spoonacular API database.</p>
+            <div class="jumbotron">
+              <h1 class="display-4">
+            		{% if title %}
+            		  {{ title }}
+            		{% else %}
+            		  Default title
+            		{% endif %}
+  	           </h1>
+  	           <p>
+                 Using "Cuisine" as a regionally defined value from Spoonacular, this page evaluates average flavor profiles across cuisines.
+  	           </p>
+               <p>
+                 "Cuisine" is a specific set of cooking traditions and practices, often associated with a specific culture. It is often named after the region or place where its underlying culture is present. A cuisine is primarily influenced by the ingredients that are available locally or through trade.
+               </p>
+               <p>
+                 We are lucky to experience a little bit of that through the globalization occurring today. However, even with these methods, we are unsure what the authentic facts of all ethnic foods are. We seek to give you a deeper insight into common flavors and tastes mapped to various cuisines.
+               </p>
+           </div>
 
+                <p>
+                  Below you will find a world map that shows the relative flavor/taste profiles by regional cuisine.* Select a taste profile on the right hand side of the map to see how the profile changes across the map.
+                </p>
 
+                <p>
+                  <b>*Countries are limited by the available cuisines data from the Spoonacular API database.</b>
+                </p>
                 <div class='tableauPlaceholder' id='viz1658797789963' style='position: relative'>
                    <noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauMap_16587975497880&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
                    <object class='tableauViz'  style='display:none;'>
@@ -85,7 +106,9 @@
 
                 <br>
                 <br>
-                <p>Below you will find a more detailed bar chart that shows the various flavor/taste profiles directly next to each other.</p>
+                <p>
+                  Below you will find a more detailed bar chart that shows the various flavor/taste profiles directly next to each other. Select one or more cuisines to compare any or all flavor profiles!
+                </p>
 
                 <div class='tableauPlaceholder' id='viz1659056836946' style='position: relative'>
                    <noscript><a href='#'><img alt='Comparing Tastes by Cuisine ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TasteBarCharts&#47;FlavorBarCharts&#47;1_rss.png' style='border: none' /></a></noscript>
