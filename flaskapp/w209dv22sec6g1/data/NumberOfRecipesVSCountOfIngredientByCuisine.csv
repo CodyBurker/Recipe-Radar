@@ -1,583 +1,583 @@
-,Cuisine,Ingredient Count,Number of Recipes
-0,African,5,4
-1,African,6,4
-2,African,7,12
-3,African,8,10
-4,African,9,13
-5,African,10,10
-6,African,11,19
-7,African,12,18
-8,African,13,13
-9,African,14,15
-10,African,15,16
-11,African,16,8
-12,African,17,9
-13,African,18,5
-14,African,19,4
-15,African,20,3
-16,African,21,2
-17,African,22,2
-18,African,26,2
-19,African,29,1
-20,American,3,5
-21,American,4,12
-22,American,5,17
-23,American,6,24
-24,American,7,24
-25,American,8,27
-26,American,9,29
-27,American,10,36
-28,American,11,32
-29,American,12,39
-30,American,13,47
-31,American,14,35
-32,American,15,32
-33,American,16,32
-34,American,17,31
-35,American,18,22
-36,American,19,10
-37,American,20,11
-38,American,21,8
-39,American,22,6
-40,American,23,7
-41,American,24,5
-42,American,25,2
-43,American,27,2
-44,American,28,2
-45,American,31,1
-46,British,3,3
-47,British,4,6
-48,British,5,14
-49,British,6,21
-50,British,7,38
-51,British,8,34
-52,British,9,69
-53,British,10,71
-54,British,11,51
-55,British,12,45
-56,British,13,29
-57,British,14,25
-58,British,15,29
-59,British,16,14
-60,British,17,8
-61,British,18,11
-62,British,19,2
-63,British,20,5
-64,British,21,4
-65,British,22,3
-66,British,24,1
-67,British,26,1
-68,British,33,1
-69,British,36,1
-70,Cajun,4,3
-71,Cajun,5,13
-72,Cajun,6,19
-73,Cajun,7,21
-74,Cajun,8,25
-75,Cajun,9,30
-76,Cajun,10,37
-77,Cajun,11,21
-78,Cajun,12,41
-79,Cajun,13,49
-80,Cajun,14,43
-81,Cajun,15,30
-82,Cajun,16,33
-83,Cajun,17,36
-84,Cajun,18,34
-85,Cajun,19,16
-86,Cajun,20,14
-87,Cajun,21,6
-88,Cajun,22,14
-89,Cajun,23,7
-90,Cajun,24,4
-91,Cajun,25,2
-92,Cajun,26,2
-93,Caribbean,3,1
-94,Caribbean,4,5
-95,Caribbean,5,49
-96,Caribbean,6,32
-97,Caribbean,7,35
-98,Caribbean,8,33
-99,Caribbean,9,29
-100,Caribbean,10,45
-101,Caribbean,11,37
-102,Caribbean,12,37
-103,Caribbean,13,34
-104,Caribbean,14,32
-105,Caribbean,15,30
-106,Caribbean,16,27
-107,Caribbean,17,15
-108,Caribbean,18,15
-109,Caribbean,19,11
-110,Caribbean,20,3
-111,Caribbean,21,3
-112,Caribbean,22,2
-113,Caribbean,23,1
-114,Caribbean,24,2
-115,Caribbean,25,2
-116,Caribbean,26,3
-117,Caribbean,27,2
-118,Caribbean,29,1
-119,Caribbean,30,1
-120,Caribbean,31,1
-121,Chinese,3,2
-122,Chinese,4,2
-123,Chinese,5,7
-124,Chinese,6,8
-125,Chinese,7,21
-126,Chinese,8,23
-127,Chinese,9,41
-128,Chinese,10,42
-129,Chinese,11,48
-130,Chinese,12,63
-131,Chinese,13,53
-132,Chinese,14,42
-133,Chinese,15,48
-134,Chinese,16,32
-135,Chinese,17,16
-136,Chinese,18,18
-137,Chinese,19,10
-138,Chinese,20,7
-139,Chinese,21,5
-140,Chinese,22,2
-141,Chinese,24,3
-142,Chinese,27,1
-143,Chinese,28,1
-144,Chinese,29,2
-145,Chinese,37,1
-146,Eastern European,3,1
-147,Eastern European,4,3
-148,Eastern European,5,4
-149,Eastern European,6,13
-150,Eastern European,7,16
-151,Eastern European,8,27
-152,Eastern European,9,45
-153,Eastern European,10,43
-154,Eastern European,11,54
-155,Eastern European,12,57
-156,Eastern European,13,60
-157,Eastern European,14,57
-158,Eastern European,15,40
-159,Eastern European,16,35
-160,Eastern European,17,19
-161,Eastern European,18,12
-162,Eastern European,19,1
-163,Eastern European,20,5
-164,Eastern European,21,2
-165,Eastern European,22,2
-166,Eastern European,25,1
-167,Eastern European,30,1
-168,European,3,1
-169,European,4,8
-170,European,5,12
-171,European,6,22
-172,European,7,22
-173,European,8,44
-174,European,9,45
-175,European,10,57
-176,European,11,54
-177,European,12,45
-178,European,13,43
-179,European,14,22
-180,European,15,24
-181,European,16,26
-182,European,17,21
-183,European,18,17
-184,European,19,6
-185,European,20,7
-186,European,21,3
-187,European,22,4
-188,European,23,3
-189,European,24,4
-190,European,25,2
-191,European,26,1
-192,European,28,1
-193,European,29,1
-194,European,30,1
-195,European,32,1
-196,French,3,2
-197,French,4,3
-198,French,5,9
-199,French,6,18
-200,French,7,24
-201,French,8,37
-202,French,9,38
-203,French,10,59
-204,French,11,64
-205,French,12,57
-206,French,13,57
-207,French,14,30
-208,French,15,27
-209,French,16,18
-210,French,17,11
-211,French,18,12
-212,French,19,3
-213,French,20,8
-214,French,21,2
-215,French,22,5
-216,French,23,5
-217,French,24,1
-218,French,25,2
-219,French,26,1
-220,French,27,1
-221,French,28,1
-222,French,30,1
-223,German,3,1
-224,German,4,4
-225,German,5,38
-226,German,6,32
-227,German,7,41
-228,German,8,36
-229,German,9,41
-230,German,10,78
-231,German,11,40
-232,German,12,51
-233,German,13,30
-234,German,14,25
-235,German,15,23
-236,German,16,11
-237,German,17,12
-238,German,18,4
-239,German,19,4
-240,German,20,6
-241,German,22,1
-242,German,23,1
-243,German,26,1
-244,Indian,3,1
-245,Indian,4,2
-246,Indian,5,12
-247,Indian,6,12
-248,Indian,7,15
-249,Indian,8,22
-250,Indian,9,34
-251,Indian,10,38
-252,Indian,11,34
-253,Indian,12,56
-254,Indian,13,52
-255,Indian,14,53
-256,Indian,15,37
-257,Indian,16,27
-258,Indian,17,24
-259,Indian,18,20
-260,Indian,19,16
-261,Indian,20,11
-262,Indian,21,7
-263,Indian,22,6
-264,Indian,23,9
-265,Indian,24,3
-266,Indian,25,2
-267,Indian,26,2
-268,Indian,28,1
-269,Indian,30,1
-270,Indian,37,1
-271,Irish,3,1
-272,Irish,4,2
-273,Irish,5,19
-274,Irish,6,39
-275,Irish,7,39
-276,Irish,8,38
-277,Irish,9,39
-278,Irish,10,44
-279,Irish,11,37
-280,Irish,12,36
-281,Irish,13,26
-282,Irish,14,34
-283,Irish,15,36
-284,Irish,16,28
-285,Irish,17,26
-286,Irish,18,23
-287,Irish,19,9
-288,Irish,20,8
-289,Irish,21,2
-290,Irish,22,2
-291,Irish,23,4
-292,Irish,24,3
-293,Irish,25,1
-294,Irish,28,1
-295,Irish,30,1
-296,Irish,35,1
-297,Italian,3,1
-298,Italian,4,7
-299,Italian,5,18
-300,Italian,6,24
-301,Italian,7,26
-302,Italian,8,38
-303,Italian,9,45
-304,Italian,10,60
-305,Italian,11,62
-306,Italian,12,45
-307,Italian,13,31
-308,Italian,14,27
-309,Italian,15,25
-310,Italian,16,27
-311,Italian,17,20
-312,Italian,18,14
-313,Italian,19,5
-314,Italian,20,6
-315,Italian,21,3
-316,Italian,22,5
-317,Italian,23,4
-318,Italian,24,2
-319,Italian,25,1
-320,Jewish,3,3
-321,Jewish,4,10
-322,Jewish,5,16
-323,Jewish,6,36
-324,Jewish,7,34
-325,Jewish,8,44
-326,Jewish,9,41
-327,Jewish,10,56
-328,Jewish,11,49
-329,Jewish,12,35
-330,Jewish,13,33
-331,Jewish,14,38
-332,Jewish,15,26
-333,Jewish,16,14
-334,Jewish,17,20
-335,Jewish,18,12
-336,Jewish,19,4
-337,Jewish,20,6
-338,Jewish,21,8
-339,Jewish,22,4
-340,Jewish,23,3
-341,Jewish,24,1
-342,Jewish,25,4
-343,Jewish,28,1
-344,Jewish,30,1
-345,Jewish,34,1
-346,Korean,3,3
-347,Korean,4,1
-348,Korean,5,10
-349,Korean,6,19
-350,Korean,7,27
-351,Korean,8,44
-352,Korean,9,48
-353,Korean,10,59
-354,Korean,11,49
-355,Korean,12,50
-356,Korean,13,47
-357,Korean,14,36
-358,Korean,15,25
-359,Korean,16,24
-360,Korean,17,14
-361,Korean,18,14
-362,Korean,19,4
-363,Korean,20,4
-364,Korean,21,6
-365,Korean,22,2
-366,Korean,23,3
-367,Korean,26,2
-368,Korean,27,3
-369,Korean,28,1
-370,Korean,30,1
-371,Korean,38,1
-372,Korean,40,1
-373,Latin American,4,3
-374,Latin American,5,7
-375,Latin American,6,13
-376,Latin American,7,24
-377,Latin American,8,43
-378,Latin American,9,62
-379,Latin American,10,56
-380,Latin American,11,53
-381,Latin American,12,47
-382,Latin American,13,45
-383,Latin American,14,30
-384,Latin American,15,30
-385,Latin American,16,23
-386,Latin American,17,13
-387,Latin American,18,12
-388,Latin American,19,9
-389,Latin American,20,6
-390,Latin American,21,3
-391,Latin American,22,7
-392,Latin American,23,1
-393,Latin American,24,5
-394,Latin American,25,2
-395,Latin American,26,1
-396,Latin American,27,1
-397,Latin American,30,1
-398,Mediterranean,3,1
-399,Mediterranean,4,9
-400,Mediterranean,5,14
-401,Mediterranean,6,21
-402,Mediterranean,7,22
-403,Mediterranean,8,38
-404,Mediterranean,9,44
-405,Mediterranean,10,57
-406,Mediterranean,11,59
-407,Mediterranean,12,44
-408,Mediterranean,13,45
-409,Mediterranean,14,20
-410,Mediterranean,15,24
-411,Mediterranean,16,28
-412,Mediterranean,17,23
-413,Mediterranean,18,15
-414,Mediterranean,19,5
-415,Mediterranean,20,6
-416,Mediterranean,21,5
-417,Mediterranean,22,3
-418,Mediterranean,23,3
-419,Mediterranean,24,4
-420,Mediterranean,25,2
-421,Mediterranean,26,1
-422,Mediterranean,28,1
-423,Mediterranean,29,1
-424,Mediterranean,30,1
-425,Mediterranean,32,1
-426,Middle Eastern,3,1
-427,Middle Eastern,4,2
-428,Middle Eastern,5,13
-429,Middle Eastern,6,24
-430,Middle Eastern,7,51
-431,Middle Eastern,8,76
-432,Middle Eastern,9,73
-433,Middle Eastern,10,58
-434,Middle Eastern,11,36
-435,Middle Eastern,12,26
-436,Middle Eastern,13,29
-437,Middle Eastern,14,26
-438,Middle Eastern,15,15
-439,Middle Eastern,16,17
-440,Middle Eastern,17,13
-441,Middle Eastern,18,8
-442,Middle Eastern,19,3
-443,Middle Eastern,20,2
-444,Middle Eastern,21,5
-445,Middle Eastern,22,1
-446,Middle Eastern,23,2
-447,Middle Eastern,24,1
-448,Middle Eastern,25,2
-449,Middle Eastern,27,2
-450,Middle Eastern,28,1
-451,Middle Eastern,33,1
-452,Nordic,3,1
-453,Nordic,4,7
-454,Nordic,5,7
-455,Nordic,6,26
-456,Nordic,7,33
-457,Nordic,8,35
-458,Nordic,9,31
-459,Nordic,10,31
-460,Nordic,11,34
-461,Nordic,12,20
-462,Nordic,13,21
-463,Nordic,14,32
-464,Nordic,15,22
-465,Nordic,16,16
-466,Nordic,17,13
-467,Nordic,18,9
-468,Nordic,19,9
-469,Nordic,20,4
-470,Nordic,21,5
-471,Nordic,22,1
-472,Nordic,23,2
-473,Nordic,28,1
-474,Southern,3,2
-475,Southern,4,9
-476,Southern,5,46
-477,Southern,6,41
-478,Southern,7,41
-479,Southern,8,54
-480,Southern,9,53
-481,Southern,10,51
-482,Southern,11,41
-483,Southern,12,27
-484,Southern,13,18
-485,Southern,14,19
-486,Southern,15,8
-487,Southern,16,18
-488,Southern,17,11
-489,Southern,18,11
-490,Southern,19,10
-491,Southern,20,6
-492,Southern,21,4
-493,Southern,22,5
-494,Southern,23,6
-495,Southern,24,4
-496,Southern,25,1
-497,Southern,27,4
-498,Southern,29,2
-499,Southern,30,3
-500,Southern,32,1
-501,Southern,36,1
-502,Southern,41,1
-503,Spanish,4,3
-504,Spanish,5,8
-505,Spanish,6,15
-506,Spanish,7,28
-507,Spanish,8,30
-508,Spanish,9,32
-509,Spanish,10,54
-510,Spanish,11,45
-511,Spanish,12,48
-512,Spanish,13,42
-513,Spanish,14,33
-514,Spanish,15,31
-515,Spanish,16,36
-516,Spanish,17,24
-517,Spanish,18,21
-518,Spanish,19,13
-519,Spanish,20,10
-520,Spanish,21,5
-521,Spanish,22,6
-522,Spanish,23,4
-523,Spanish,24,1
-524,Spanish,25,4
-525,Spanish,26,1
-526,Spanish,27,2
-527,Spanish,30,1
-528,Spanish,33,2
-529,Thai,4,3
-530,Thai,5,7
-531,Thai,6,7
-532,Thai,7,17
-533,Thai,8,14
-534,Thai,9,28
-535,Thai,10,21
-536,Thai,11,33
-537,Thai,12,44
-538,Thai,13,51
-539,Thai,14,48
-540,Thai,15,53
-541,Thai,16,37
-542,Thai,17,33
-543,Thai,18,28
-544,Thai,19,9
-545,Thai,20,15
-546,Thai,21,11
-547,Thai,22,4
-548,Thai,23,5
-549,Thai,24,3
-550,Thai,25,3
-551,Thai,26,2
-552,Thai,27,3
-553,Thai,28,2
-554,Thai,32,1
-555,Thai,34,1
-556,Vietnamese,4,4
-557,Vietnamese,5,4
-558,Vietnamese,6,10
-559,Vietnamese,7,10
-560,Vietnamese,8,16
-561,Vietnamese,9,30
-562,Vietnamese,10,32
-563,Vietnamese,11,34
-564,Vietnamese,12,49
-565,Vietnamese,13,41
-566,Vietnamese,14,31
-567,Vietnamese,15,37
-568,Vietnamese,16,36
-569,Vietnamese,17,36
-570,Vietnamese,18,40
-571,Vietnamese,19,14
-572,Vietnamese,20,13
-573,Vietnamese,21,16
-574,Vietnamese,22,17
-575,Vietnamese,23,6
-576,Vietnamese,24,5
-577,Vietnamese,25,1
-578,Vietnamese,26,5
-579,Vietnamese,27,1
-580,Vietnamese,29,1
-581,Vietnamese,30,2
+,Cuisine,Ingredient Count,Number of Recipes,Magnitude of Recipes,Decimal Magnitude of Recipes
+0,African,5,4,0.008,0.08
+1,African,6,4,0.008,0.08
+2,African,7,12,0.024,0.24
+3,African,8,10,0.02,0.2
+4,African,9,13,0.026,0.26
+5,African,10,10,0.02,0.2
+6,African,11,19,0.038,0.38
+7,African,12,18,0.036,0.36
+8,African,13,13,0.026,0.26
+9,African,14,15,0.03,0.3
+10,African,15,16,0.032,0.32
+11,African,16,8,0.016,0.16
+12,African,17,9,0.018,0.18
+13,African,18,5,0.01,0.1
+14,African,19,4,0.008,0.08
+15,African,20,3,0.006,0.06
+16,African,21,2,0.004,0.04
+17,African,22,2,0.004,0.04
+18,African,26,2,0.004,0.04
+19,African,29,1,0.002,0.02
+20,American,3,5,0.01,0.1
+21,American,4,12,0.024,0.24
+22,American,5,17,0.034,0.34
+23,American,6,24,0.048,0.48
+24,American,7,24,0.048,0.48
+25,American,8,27,0.054,0.54
+26,American,9,29,0.058,0.58
+27,American,10,36,0.072,0.72
+28,American,11,32,0.064,0.64
+29,American,12,39,0.078,0.78
+30,American,13,47,0.094,0.94
+31,American,14,35,0.07,0.7
+32,American,15,32,0.064,0.64
+33,American,16,32,0.064,0.64
+34,American,17,31,0.062,0.62
+35,American,18,22,0.044,0.44
+36,American,19,10,0.02,0.2
+37,American,20,11,0.022,0.22
+38,American,21,8,0.016,0.16
+39,American,22,6,0.012,0.12
+40,American,23,7,0.014,0.14
+41,American,24,5,0.01,0.1
+42,American,25,2,0.004,0.04
+43,American,27,2,0.004,0.04
+44,American,28,2,0.004,0.04
+45,American,31,1,0.002,0.02
+46,British,3,3,0.006,0.06
+47,British,4,6,0.012,0.12
+48,British,5,14,0.028,0.28
+49,British,6,21,0.042,0.42
+50,British,7,38,0.076,0.76
+51,British,8,34,0.068,0.68
+52,British,9,69,0.138,1.38
+53,British,10,71,0.142,1.42
+54,British,11,51,0.102,1.02
+55,British,12,45,0.09,0.9
+56,British,13,29,0.058,0.58
+57,British,14,25,0.05,0.5
+58,British,15,29,0.058,0.58
+59,British,16,14,0.028,0.28
+60,British,17,8,0.016,0.16
+61,British,18,11,0.022,0.22
+62,British,19,2,0.004,0.04
+63,British,20,5,0.01,0.1
+64,British,21,4,0.008,0.08
+65,British,22,3,0.006,0.06
+66,British,24,1,0.002,0.02
+67,British,26,1,0.002,0.02
+68,British,33,1,0.002,0.02
+69,British,36,1,0.002,0.02
+70,Cajun,4,3,0.006,0.06
+71,Cajun,5,13,0.026,0.26
+72,Cajun,6,19,0.038,0.38
+73,Cajun,7,21,0.042,0.42
+74,Cajun,8,25,0.05,0.5
+75,Cajun,9,30,0.06,0.6
+76,Cajun,10,37,0.074,0.74
+77,Cajun,11,21,0.042,0.42
+78,Cajun,12,41,0.082,0.82
+79,Cajun,13,49,0.098,0.98
+80,Cajun,14,43,0.086,0.86
+81,Cajun,15,30,0.06,0.6
+82,Cajun,16,33,0.066,0.66
+83,Cajun,17,36,0.072,0.72
+84,Cajun,18,34,0.068,0.68
+85,Cajun,19,16,0.032,0.32
+86,Cajun,20,14,0.028,0.28
+87,Cajun,21,6,0.012,0.12
+88,Cajun,22,14,0.028,0.28
+89,Cajun,23,7,0.014,0.14
+90,Cajun,24,4,0.008,0.08
+91,Cajun,25,2,0.004,0.04
+92,Cajun,26,2,0.004,0.04
+93,Caribbean,3,1,0.002,0.02
+94,Caribbean,4,5,0.01,0.1
+95,Caribbean,5,49,0.098,0.98
+96,Caribbean,6,32,0.064,0.64
+97,Caribbean,7,35,0.07,0.7
+98,Caribbean,8,33,0.066,0.66
+99,Caribbean,9,29,0.058,0.58
+100,Caribbean,10,45,0.09,0.9
+101,Caribbean,11,37,0.074,0.74
+102,Caribbean,12,37,0.074,0.74
+103,Caribbean,13,34,0.068,0.68
+104,Caribbean,14,32,0.064,0.64
+105,Caribbean,15,30,0.06,0.6
+106,Caribbean,16,27,0.054,0.54
+107,Caribbean,17,15,0.03,0.3
+108,Caribbean,18,15,0.03,0.3
+109,Caribbean,19,11,0.022,0.22
+110,Caribbean,20,3,0.006,0.06
+111,Caribbean,21,3,0.006,0.06
+112,Caribbean,22,2,0.004,0.04
+113,Caribbean,23,1,0.002,0.02
+114,Caribbean,24,2,0.004,0.04
+115,Caribbean,25,2,0.004,0.04
+116,Caribbean,26,3,0.006,0.06
+117,Caribbean,27,2,0.004,0.04
+118,Caribbean,29,1,0.002,0.02
+119,Caribbean,30,1,0.002,0.02
+120,Caribbean,31,1,0.002,0.02
+121,Chinese,3,2,0.004,0.04
+122,Chinese,4,2,0.004,0.04
+123,Chinese,5,7,0.014,0.14
+124,Chinese,6,8,0.016,0.16
+125,Chinese,7,21,0.042,0.42
+126,Chinese,8,23,0.046,0.46
+127,Chinese,9,41,0.082,0.82
+128,Chinese,10,42,0.084,0.84
+129,Chinese,11,48,0.096,0.96
+130,Chinese,12,63,0.126,1.26
+131,Chinese,13,53,0.106,1.06
+132,Chinese,14,42,0.084,0.84
+133,Chinese,15,48,0.096,0.96
+134,Chinese,16,32,0.064,0.64
+135,Chinese,17,16,0.032,0.32
+136,Chinese,18,18,0.036,0.36
+137,Chinese,19,10,0.02,0.2
+138,Chinese,20,7,0.014,0.14
+139,Chinese,21,5,0.01,0.1
+140,Chinese,22,2,0.004,0.04
+141,Chinese,24,3,0.006,0.06
+142,Chinese,27,1,0.002,0.02
+143,Chinese,28,1,0.002,0.02
+144,Chinese,29,2,0.004,0.04
+145,Chinese,37,1,0.002,0.02
+146,Eastern European,3,1,0.002,0.02
+147,Eastern European,4,3,0.006,0.06
+148,Eastern European,5,4,0.008,0.08
+149,Eastern European,6,13,0.026,0.26
+150,Eastern European,7,16,0.032,0.32
+151,Eastern European,8,27,0.054,0.54
+152,Eastern European,9,45,0.09,0.9
+153,Eastern European,10,43,0.086,0.86
+154,Eastern European,11,54,0.108,1.08
+155,Eastern European,12,57,0.114,1.14
+156,Eastern European,13,60,0.12,1.2
+157,Eastern European,14,57,0.114,1.14
+158,Eastern European,15,40,0.08,0.8
+159,Eastern European,16,35,0.07,0.7
+160,Eastern European,17,19,0.038,0.38
+161,Eastern European,18,12,0.024,0.24
+162,Eastern European,19,1,0.002,0.02
+163,Eastern European,20,5,0.01,0.1
+164,Eastern European,21,2,0.004,0.04
+165,Eastern European,22,2,0.004,0.04
+166,Eastern European,25,1,0.002,0.02
+167,Eastern European,30,1,0.002,0.02
+168,European,3,1,0.002,0.02
+169,European,4,8,0.016,0.16
+170,European,5,12,0.024,0.24
+171,European,6,22,0.044,0.44
+172,European,7,22,0.044,0.44
+173,European,8,44,0.088,0.88
+174,European,9,45,0.09,0.9
+175,European,10,57,0.114,1.14
+176,European,11,54,0.108,1.08
+177,European,12,45,0.09,0.9
+178,European,13,43,0.086,0.86
+179,European,14,22,0.044,0.44
+180,European,15,24,0.048,0.48
+181,European,16,26,0.052,0.52
+182,European,17,21,0.042,0.42
+183,European,18,17,0.034,0.34
+184,European,19,6,0.012,0.12
+185,European,20,7,0.014,0.14
+186,European,21,3,0.006,0.06
+187,European,22,4,0.008,0.08
+188,European,23,3,0.006,0.06
+189,European,24,4,0.008,0.08
+190,European,25,2,0.004,0.04
+191,European,26,1,0.002,0.02
+192,European,28,1,0.002,0.02
+193,European,29,1,0.002,0.02
+194,European,30,1,0.002,0.02
+195,European,32,1,0.002,0.02
+196,French,3,2,0.004,0.04
+197,French,4,3,0.006,0.06
+198,French,5,9,0.018,0.18
+199,French,6,18,0.036,0.36
+200,French,7,24,0.048,0.48
+201,French,8,37,0.074,0.74
+202,French,9,38,0.076,0.76
+203,French,10,59,0.118,1.18
+204,French,11,64,0.128,1.28
+205,French,12,57,0.114,1.14
+206,French,13,57,0.114,1.14
+207,French,14,30,0.06,0.6
+208,French,15,27,0.054,0.54
+209,French,16,18,0.036,0.36
+210,French,17,11,0.022,0.22
+211,French,18,12,0.024,0.24
+212,French,19,3,0.006,0.06
+213,French,20,8,0.016,0.16
+214,French,21,2,0.004,0.04
+215,French,22,5,0.01,0.1
+216,French,23,5,0.01,0.1
+217,French,24,1,0.002,0.02
+218,French,25,2,0.004,0.04
+219,French,26,1,0.002,0.02
+220,French,27,1,0.002,0.02
+221,French,28,1,0.002,0.02
+222,French,30,1,0.002,0.02
+223,German,3,1,0.002,0.02
+224,German,4,4,0.008,0.08
+225,German,5,38,0.076,0.76
+226,German,6,32,0.064,0.64
+227,German,7,41,0.082,0.82
+228,German,8,36,0.072,0.72
+229,German,9,41,0.082,0.82
+230,German,10,78,0.156,1.56
+231,German,11,40,0.08,0.8
+232,German,12,51,0.102,1.02
+233,German,13,30,0.06,0.6
+234,German,14,25,0.05,0.5
+235,German,15,23,0.046,0.46
+236,German,16,11,0.022,0.22
+237,German,17,12,0.024,0.24
+238,German,18,4,0.008,0.08
+239,German,19,4,0.008,0.08
+240,German,20,6,0.012,0.12
+241,German,22,1,0.002,0.02
+242,German,23,1,0.002,0.02
+243,German,26,1,0.002,0.02
+244,Indian,3,1,0.002,0.02
+245,Indian,4,2,0.004,0.04
+246,Indian,5,12,0.024,0.24
+247,Indian,6,12,0.024,0.24
+248,Indian,7,15,0.03,0.3
+249,Indian,8,22,0.044,0.44
+250,Indian,9,34,0.068,0.68
+251,Indian,10,38,0.076,0.76
+252,Indian,11,34,0.068,0.68
+253,Indian,12,56,0.112,1.12
+254,Indian,13,52,0.104,1.04
+255,Indian,14,53,0.106,1.06
+256,Indian,15,37,0.074,0.74
+257,Indian,16,27,0.054,0.54
+258,Indian,17,24,0.048,0.48
+259,Indian,18,20,0.04,0.4
+260,Indian,19,16,0.032,0.32
+261,Indian,20,11,0.022,0.22
+262,Indian,21,7,0.014,0.14
+263,Indian,22,6,0.012,0.12
+264,Indian,23,9,0.018,0.18
+265,Indian,24,3,0.006,0.06
+266,Indian,25,2,0.004,0.04
+267,Indian,26,2,0.004,0.04
+268,Indian,28,1,0.002,0.02
+269,Indian,30,1,0.002,0.02
+270,Indian,37,1,0.002,0.02
+271,Irish,3,1,0.002,0.02
+272,Irish,4,2,0.004,0.04
+273,Irish,5,19,0.038,0.38
+274,Irish,6,39,0.078,0.78
+275,Irish,7,39,0.078,0.78
+276,Irish,8,38,0.076,0.76
+277,Irish,9,39,0.078,0.78
+278,Irish,10,44,0.088,0.88
+279,Irish,11,37,0.074,0.74
+280,Irish,12,36,0.072,0.72
+281,Irish,13,26,0.052,0.52
+282,Irish,14,34,0.068,0.68
+283,Irish,15,36,0.072,0.72
+284,Irish,16,28,0.056,0.56
+285,Irish,17,26,0.052,0.52
+286,Irish,18,23,0.046,0.46
+287,Irish,19,9,0.018,0.18
+288,Irish,20,8,0.016,0.16
+289,Irish,21,2,0.004,0.04
+290,Irish,22,2,0.004,0.04
+291,Irish,23,4,0.008,0.08
+292,Irish,24,3,0.006,0.06
+293,Irish,25,1,0.002,0.02
+294,Irish,28,1,0.002,0.02
+295,Irish,30,1,0.002,0.02
+296,Irish,35,1,0.002,0.02
+297,Italian,3,1,0.002,0.02
+298,Italian,4,7,0.014,0.14
+299,Italian,5,18,0.036,0.36
+300,Italian,6,24,0.048,0.48
+301,Italian,7,26,0.052,0.52
+302,Italian,8,38,0.076,0.76
+303,Italian,9,45,0.09,0.9
+304,Italian,10,60,0.12,1.2
+305,Italian,11,62,0.124,1.24
+306,Italian,12,45,0.09,0.9
+307,Italian,13,31,0.062,0.62
+308,Italian,14,27,0.054,0.54
+309,Italian,15,25,0.05,0.5
+310,Italian,16,27,0.054,0.54
+311,Italian,17,20,0.04,0.4
+312,Italian,18,14,0.028,0.28
+313,Italian,19,5,0.01,0.1
+314,Italian,20,6,0.012,0.12
+315,Italian,21,3,0.006,0.06
+316,Italian,22,5,0.01,0.1
+317,Italian,23,4,0.008,0.08
+318,Italian,24,2,0.004,0.04
+319,Italian,25,1,0.002,0.02
+320,Jewish,3,3,0.006,0.06
+321,Jewish,4,10,0.02,0.2
+322,Jewish,5,16,0.032,0.32
+323,Jewish,6,36,0.072,0.72
+324,Jewish,7,34,0.068,0.68
+325,Jewish,8,44,0.088,0.88
+326,Jewish,9,41,0.082,0.82
+327,Jewish,10,56,0.112,1.12
+328,Jewish,11,49,0.098,0.98
+329,Jewish,12,35,0.07,0.7
+330,Jewish,13,33,0.066,0.66
+331,Jewish,14,38,0.076,0.76
+332,Jewish,15,26,0.052,0.52
+333,Jewish,16,14,0.028,0.28
+334,Jewish,17,20,0.04,0.4
+335,Jewish,18,12,0.024,0.24
+336,Jewish,19,4,0.008,0.08
+337,Jewish,20,6,0.012,0.12
+338,Jewish,21,8,0.016,0.16
+339,Jewish,22,4,0.008,0.08
+340,Jewish,23,3,0.006,0.06
+341,Jewish,24,1,0.002,0.02
+342,Jewish,25,4,0.008,0.08
+343,Jewish,28,1,0.002,0.02
+344,Jewish,30,1,0.002,0.02
+345,Jewish,34,1,0.002,0.02
+346,Korean,3,3,0.006,0.06
+347,Korean,4,1,0.002,0.02
+348,Korean,5,10,0.02,0.2
+349,Korean,6,19,0.038,0.38
+350,Korean,7,27,0.054,0.54
+351,Korean,8,44,0.088,0.88
+352,Korean,9,48,0.096,0.96
+353,Korean,10,59,0.118,1.18
+354,Korean,11,49,0.098,0.98
+355,Korean,12,50,0.1,1.0
+356,Korean,13,47,0.094,0.94
+357,Korean,14,36,0.072,0.72
+358,Korean,15,25,0.05,0.5
+359,Korean,16,24,0.048,0.48
+360,Korean,17,14,0.028,0.28
+361,Korean,18,14,0.028,0.28
+362,Korean,19,4,0.008,0.08
+363,Korean,20,4,0.008,0.08
+364,Korean,21,6,0.012,0.12
+365,Korean,22,2,0.004,0.04
+366,Korean,23,3,0.006,0.06
+367,Korean,26,2,0.004,0.04
+368,Korean,27,3,0.006,0.06
+369,Korean,28,1,0.002,0.02
+370,Korean,30,1,0.002,0.02
+371,Korean,38,1,0.002,0.02
+372,Korean,40,1,0.002,0.02
+373,Latin American,4,3,0.006,0.06
+374,Latin American,5,7,0.014,0.14
+375,Latin American,6,13,0.026,0.26
+376,Latin American,7,24,0.048,0.48
+377,Latin American,8,43,0.086,0.86
+378,Latin American,9,62,0.124,1.24
+379,Latin American,10,56,0.112,1.12
+380,Latin American,11,53,0.106,1.06
+381,Latin American,12,47,0.094,0.94
+382,Latin American,13,45,0.09,0.9
+383,Latin American,14,30,0.06,0.6
+384,Latin American,15,30,0.06,0.6
+385,Latin American,16,23,0.046,0.46
+386,Latin American,17,13,0.026,0.26
+387,Latin American,18,12,0.024,0.24
+388,Latin American,19,9,0.018,0.18
+389,Latin American,20,6,0.012,0.12
+390,Latin American,21,3,0.006,0.06
+391,Latin American,22,7,0.014,0.14
+392,Latin American,23,1,0.002,0.02
+393,Latin American,24,5,0.01,0.1
+394,Latin American,25,2,0.004,0.04
+395,Latin American,26,1,0.002,0.02
+396,Latin American,27,1,0.002,0.02
+397,Latin American,30,1,0.002,0.02
+398,Mediterranean,3,1,0.002,0.02
+399,Mediterranean,4,9,0.018,0.18
+400,Mediterranean,5,14,0.028,0.28
+401,Mediterranean,6,21,0.042,0.42
+402,Mediterranean,7,22,0.044,0.44
+403,Mediterranean,8,38,0.076,0.76
+404,Mediterranean,9,44,0.088,0.88
+405,Mediterranean,10,57,0.114,1.14
+406,Mediterranean,11,59,0.118,1.18
+407,Mediterranean,12,44,0.088,0.88
+408,Mediterranean,13,45,0.09,0.9
+409,Mediterranean,14,20,0.04,0.4
+410,Mediterranean,15,24,0.048,0.48
+411,Mediterranean,16,28,0.056,0.56
+412,Mediterranean,17,23,0.046,0.46
+413,Mediterranean,18,15,0.03,0.3
+414,Mediterranean,19,5,0.01,0.1
+415,Mediterranean,20,6,0.012,0.12
+416,Mediterranean,21,5,0.01,0.1
+417,Mediterranean,22,3,0.006,0.06
+418,Mediterranean,23,3,0.006,0.06
+419,Mediterranean,24,4,0.008,0.08
+420,Mediterranean,25,2,0.004,0.04
+421,Mediterranean,26,1,0.002,0.02
+422,Mediterranean,28,1,0.002,0.02
+423,Mediterranean,29,1,0.002,0.02
+424,Mediterranean,30,1,0.002,0.02
+425,Mediterranean,32,1,0.002,0.02
+426,Middle Eastern,3,1,0.002,0.02
+427,Middle Eastern,4,2,0.004,0.04
+428,Middle Eastern,5,13,0.026,0.26
+429,Middle Eastern,6,24,0.048,0.48
+430,Middle Eastern,7,51,0.102,1.02
+431,Middle Eastern,8,76,0.152,1.52
+432,Middle Eastern,9,73,0.146,1.46
+433,Middle Eastern,10,58,0.116,1.16
+434,Middle Eastern,11,36,0.072,0.72
+435,Middle Eastern,12,26,0.052,0.52
+436,Middle Eastern,13,29,0.058,0.58
+437,Middle Eastern,14,26,0.052,0.52
+438,Middle Eastern,15,15,0.03,0.3
+439,Middle Eastern,16,17,0.034,0.34
+440,Middle Eastern,17,13,0.026,0.26
+441,Middle Eastern,18,8,0.016,0.16
+442,Middle Eastern,19,3,0.006,0.06
+443,Middle Eastern,20,2,0.004,0.04
+444,Middle Eastern,21,5,0.01,0.1
+445,Middle Eastern,22,1,0.002,0.02
+446,Middle Eastern,23,2,0.004,0.04
+447,Middle Eastern,24,1,0.002,0.02
+448,Middle Eastern,25,2,0.004,0.04
+449,Middle Eastern,27,2,0.004,0.04
+450,Middle Eastern,28,1,0.002,0.02
+451,Middle Eastern,33,1,0.002,0.02
+452,Nordic,3,1,0.002,0.02
+453,Nordic,4,7,0.014,0.14
+454,Nordic,5,7,0.014,0.14
+455,Nordic,6,26,0.052,0.52
+456,Nordic,7,33,0.066,0.66
+457,Nordic,8,35,0.07,0.7
+458,Nordic,9,31,0.062,0.62
+459,Nordic,10,31,0.062,0.62
+460,Nordic,11,34,0.068,0.68
+461,Nordic,12,20,0.04,0.4
+462,Nordic,13,21,0.042,0.42
+463,Nordic,14,32,0.064,0.64
+464,Nordic,15,22,0.044,0.44
+465,Nordic,16,16,0.032,0.32
+466,Nordic,17,13,0.026,0.26
+467,Nordic,18,9,0.018,0.18
+468,Nordic,19,9,0.018,0.18
+469,Nordic,20,4,0.008,0.08
+470,Nordic,21,5,0.01,0.1
+471,Nordic,22,1,0.002,0.02
+472,Nordic,23,2,0.004,0.04
+473,Nordic,28,1,0.002,0.02
+474,Southern,3,2,0.004,0.04
+475,Southern,4,9,0.018,0.18
+476,Southern,5,46,0.092,0.92
+477,Southern,6,41,0.082,0.82
+478,Southern,7,41,0.082,0.82
+479,Southern,8,54,0.108,1.08
+480,Southern,9,53,0.106,1.06
+481,Southern,10,51,0.102,1.02
+482,Southern,11,41,0.082,0.82
+483,Southern,12,27,0.054,0.54
+484,Southern,13,18,0.036,0.36
+485,Southern,14,19,0.038,0.38
+486,Southern,15,8,0.016,0.16
+487,Southern,16,18,0.036,0.36
+488,Southern,17,11,0.022,0.22
+489,Southern,18,11,0.022,0.22
+490,Southern,19,10,0.02,0.2
+491,Southern,20,6,0.012,0.12
+492,Southern,21,4,0.008,0.08
+493,Southern,22,5,0.01,0.1
+494,Southern,23,6,0.012,0.12
+495,Southern,24,4,0.008,0.08
+496,Southern,25,1,0.002,0.02
+497,Southern,27,4,0.008,0.08
+498,Southern,29,2,0.004,0.04
+499,Southern,30,3,0.006,0.06
+500,Southern,32,1,0.002,0.02
+501,Southern,36,1,0.002,0.02
+502,Southern,41,1,0.002,0.02
+503,Spanish,4,3,0.006,0.06
+504,Spanish,5,8,0.016,0.16
+505,Spanish,6,15,0.03,0.3
+506,Spanish,7,28,0.056,0.56
+507,Spanish,8,30,0.06,0.6
+508,Spanish,9,32,0.064,0.64
+509,Spanish,10,54,0.108,1.08
+510,Spanish,11,45,0.09,0.9
+511,Spanish,12,48,0.096,0.96
+512,Spanish,13,42,0.084,0.84
+513,Spanish,14,33,0.066,0.66
+514,Spanish,15,31,0.062,0.62
+515,Spanish,16,36,0.072,0.72
+516,Spanish,17,24,0.048,0.48
+517,Spanish,18,21,0.042,0.42
+518,Spanish,19,13,0.026,0.26
+519,Spanish,20,10,0.02,0.2
+520,Spanish,21,5,0.01,0.1
+521,Spanish,22,6,0.012,0.12
+522,Spanish,23,4,0.008,0.08
+523,Spanish,24,1,0.002,0.02
+524,Spanish,25,4,0.008,0.08
+525,Spanish,26,1,0.002,0.02
+526,Spanish,27,2,0.004,0.04
+527,Spanish,30,1,0.002,0.02
+528,Spanish,33,2,0.004,0.04
+529,Thai,4,3,0.006,0.06
+530,Thai,5,7,0.014,0.14
+531,Thai,6,7,0.014,0.14
+532,Thai,7,17,0.034,0.34
+533,Thai,8,14,0.028,0.28
+534,Thai,9,28,0.056,0.56
+535,Thai,10,21,0.042,0.42
+536,Thai,11,33,0.066,0.66
+537,Thai,12,44,0.088,0.88
+538,Thai,13,51,0.102,1.02
+539,Thai,14,48,0.096,0.96
+540,Thai,15,53,0.106,1.06
+541,Thai,16,37,0.074,0.74
+542,Thai,17,33,0.066,0.66
+543,Thai,18,28,0.056,0.56
+544,Thai,19,9,0.018,0.18
+545,Thai,20,15,0.03,0.3
+546,Thai,21,11,0.022,0.22
+547,Thai,22,4,0.008,0.08
+548,Thai,23,5,0.01,0.1
+549,Thai,24,3,0.006,0.06
+550,Thai,25,3,0.006,0.06
+551,Thai,26,2,0.004,0.04
+552,Thai,27,3,0.006,0.06
+553,Thai,28,2,0.004,0.04
+554,Thai,32,1,0.002,0.02
+555,Thai,34,1,0.002,0.02
+556,Vietnamese,4,4,0.008,0.08
+557,Vietnamese,5,4,0.008,0.08
+558,Vietnamese,6,10,0.02,0.2
+559,Vietnamese,7,10,0.02,0.2
+560,Vietnamese,8,16,0.032,0.32
+561,Vietnamese,9,30,0.06,0.6
+562,Vietnamese,10,32,0.064,0.64
+563,Vietnamese,11,34,0.068,0.68
+564,Vietnamese,12,49,0.098,0.98
+565,Vietnamese,13,41,0.082,0.82
+566,Vietnamese,14,31,0.062,0.62
+567,Vietnamese,15,37,0.074,0.74
+568,Vietnamese,16,36,0.072,0.72
+569,Vietnamese,17,36,0.072,0.72
+570,Vietnamese,18,40,0.08,0.8
+571,Vietnamese,19,14,0.028,0.28
+572,Vietnamese,20,13,0.026,0.26
+573,Vietnamese,21,16,0.032,0.32
+574,Vietnamese,22,17,0.034,0.34
+575,Vietnamese,23,6,0.012,0.12
+576,Vietnamese,24,5,0.01,0.1
+577,Vietnamese,25,1,0.002,0.02
+578,Vietnamese,26,5,0.01,0.1
+579,Vietnamese,27,1,0.002,0.02
+580,Vietnamese,29,1,0.002,0.02
+581,Vietnamese,30,2,0.004,0.04

@@ -19,13 +19,16 @@ def TopIngredients():
     df = Ingredients
     
     df1 = df[df['Name'].isin(df['Name'].unique()[0:10])].sort_values(by=['SumOfCount', 'Name'], ignore_index=True, ascending=False)
+    df1.rename(columns = {'Count':'Recipe Count'}, inplace = True)
+    df1.rename(columns = {'Name':'Ingredient Name'}, inplace = True)
     chart = alt.Chart(df1).mark_bar().encode(    
-        x=alt.X('Count:Q', title='Count', sort=None)
-      , y=alt.Y('Name:N', title='Ingredients', sort=None)
+        x=alt.X('Recipe Count:Q', title='Recipe Count', sort=None)
+      , y=alt.Y('Ingredient Name:N', sort=None)
       , color=alt.Color('Cuisine:N', scale=alt.Scale(range=colorpalette))
-      , tooltip=alt.Tooltip(["Cuisine", "Count", "Name"])
+      , tooltip=[alt.Tooltip("Cuisine", title="Cuisine")
+               , alt.Tooltip("Recipe Count", title="Recipe Count (Out of 500)")
+               , alt.Tooltip("Ingredient Name", title="Ingredient Name")]
     ).properties(
-        #title="Top 10 Count of Ingredients for Recipes by Cuisines"
         height = 300
       , width = 400 
     ).interactive()
@@ -40,14 +43,18 @@ def FirstIngredients():
     
     dataframe = df[df['Name'].isin(df['Name'].unique()[0:1])]
     df1 = dataframe.sort_values(by=['Count'], ignore_index=True, ascending=False)
+    df1.rename(columns = {'Count':'Recipe Count'}, inplace = True)
+    df1.rename(columns = {'Name':'Ingredient Name'}, inplace = True)
     chart = alt.Chart(df1).mark_bar().encode(  
         x=alt.X('Cuisine:N', axis=None, sort=None)  
-      , y=alt.Y('Count', title = 'Count', sort=None)
-      , tooltip=alt.Tooltip(["Cuisine", "Count", "Name"])
+      , y=alt.Y('Recipe Count', title = 'Recipe Count', sort=None, scale=alt.Scale(domain=[0, 500]))
+      , tooltip=[alt.Tooltip("Cuisine", title="Cuisine")
+               , alt.Tooltip("Recipe Count", title="Recipe Count (Out of 500)")
+               , alt.Tooltip("Ingredient Name", title="Ingredient Name")]
       , color=alt.Color('Cuisine:N'
             , title = 'Cuisine (Regionally Defined)'
-            , legend=None
             , scale=alt.Scale(range=colorpalette)
+            , legend=None
         )
     ).properties(
         title = dataframe['Name'].unique()[0]
@@ -64,14 +71,18 @@ def SecondIngredients():
     
     dataframe = df[df['Name'].isin(df['Name'].unique()[1:2])]
     df1 = dataframe.sort_values(by=['Count'], ignore_index=True, ascending=False)
+    df1.rename(columns = {'Count':'Recipe Count'}, inplace = True)
+    df1.rename(columns = {'Name':'Ingredient Name'}, inplace = True)
     chart = alt.Chart(df1).mark_bar().encode(  
         x=alt.X('Cuisine:N', axis=None, sort=None)  
-      , y=alt.Y('Count', title = 'Count', sort=None)
-      , tooltip=alt.Tooltip(["Cuisine", "Count", "Name"])
+      , y=alt.Y('Recipe Count', title = 'Recipe Count', sort=None, scale=alt.Scale(domain=[0, 500]))
+      , tooltip=[alt.Tooltip("Cuisine", title="Cuisine")
+               , alt.Tooltip("Recipe Count", title="Recipe Count (Out of 500)")
+               , alt.Tooltip("Ingredient Name", title="Ingredient Name")]
       , color=alt.Color('Cuisine:N'
             , title = 'Cuisine (Regionally Defined)'
-            , legend=None
             , scale=alt.Scale(range=colorpalette)
+            , legend=None
         )
     ).properties(
         title = dataframe['Name'].unique()[0]
@@ -88,14 +99,18 @@ def ThirdIngredients():
     
     dataframe = df[df['Name'].isin(df['Name'].unique()[2:3])]
     df1 = dataframe.sort_values(by=['Count'], ignore_index=True, ascending=False)
+    df1.rename(columns = {'Count':'Recipe Count'}, inplace = True)
+    df1.rename(columns = {'Name':'Ingredient Name'}, inplace = True)
     chart = alt.Chart(df1).mark_bar().encode(  
         x=alt.X('Cuisine:N', axis=None, sort=None)  
-      , y=alt.Y('Count', title = 'Count', sort=None)
-      , tooltip=alt.Tooltip(["Cuisine", "Count", "Name"])
+      , y=alt.Y('Recipe Count', title = 'Recipe Count', sort=None, scale=alt.Scale(domain=[0, 500]))
+      , tooltip=[alt.Tooltip("Cuisine", title="Cuisine")
+               , alt.Tooltip("Recipe Count", title="Recipe Count (Out of 500)")
+               , alt.Tooltip("Ingredient Name", title="Ingredient Name")]
       , color=alt.Color('Cuisine:N'
             , title = 'Cuisine (Regionally Defined)'
-            , legend=None
             , scale=alt.Scale(range=colorpalette)
+            , legend=None
         )
     ).properties(
         title = dataframe['Name'].unique()[0]
@@ -117,8 +132,11 @@ def NumberOfRecipesVSCountOfIngredientByCuisine():
        , color=alt.Color("Cuisine:N"
             , scale=alt.Scale(range=colorpalette)
          ) 
-       , size=alt.Size('Ingredient Count', scale=alt.Scale(domain=[0, 50]))
-       , tooltip=alt.Tooltip(['Cuisine', 'Ingredient Count', 'Number of Recipes'], )
+       #, size=alt.Size('Decimal Magnitude of Recipes', scale=alt.Scale(domain=[0, 1]))
+       , tooltip=[alt.Tooltip('Cuisine', title = 'Cuisine')
+               , alt.Tooltip('Number of Recipes', title = 'Number of Recipes')
+               , alt.Tooltip('Ingredient Count', title = 'with Ingredient Count of')
+               , alt.Tooltip('Magnitude of Recipes', title = 'Magnitude of Recipes', format='.2%')]
     ).properties(height = 800, width=500).interactive()
             
     return chart.to_json()
